@@ -1,6 +1,7 @@
 easybuffer.vim (0.1.4)
 surround.vim (2.0)
 tpope/vim-bundler (v1.0)
+tpope/vim-fugitive (v1.2)
 tpope/vim-git (v6.0)
 tpope/vim-rails (v4.4)
 tpope/vim-rake (v1.1)
