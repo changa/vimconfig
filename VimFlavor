@@ -72,6 +72,14 @@ flavor "easybuffer.vim"
 # }}}
 flavor 'tpope/vim-rails'
 
+# {{{ rake-vim
+# With rake.vim, you can use all those parts of rails.vim that you wish you
+# could use on your other Ruby projects on anything with a Rakefile, including
+# :A, :Elib and friends, and of course :Rake. It's great when paired with gem
+# open and bundle open and complemented nicely by bundler.vim.
+# }}}
+flavor 'tpope/vim-rake'
+
 # }}} /RUBY-RELATED
 
 # }}} /LANGUAGES
