@@ -49,6 +49,7 @@ flavor 'tpope/vim-repeat'
 
 # }}} /BASICS
 
+
 # {{{ BUFFERS
 
 # {{{ easybuffer.vim
@@ -59,3 +60,18 @@ flavor 'tpope/vim-repeat'
 flavor "easybuffer.vim"
 
 # }}}
+
+
+# {{{ LANGUAGES
+
+# {{{ RUBY-RELATED
+
+# {{{ vim-rails
+#
+# https://github.com/tpope/vim-rails
+# }}}
+flavor 'tpope/vim-rails'
+
+# }}} /RUBY-RELATED
+
+# }}} /LANGUAGES
