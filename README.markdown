@@ -12,3 +12,4 @@ gem to manage dependencies.
 ## Noteworthy plugins:
 
  * [sensible.vim](https://gitub.com/tpope/vim-sensible)
+ * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)
