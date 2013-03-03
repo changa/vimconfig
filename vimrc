@@ -30,3 +30,9 @@ augroup strip_whitespaces
 augroup END
 
 " }}}
+
+" {{{ Spaces and tabs
+"
+set listchars=nbsp:·,tab:»–,trail:·
+set list
+" }}}
