@@ -102,3 +102,15 @@ flavor "tpope/vim-bundler"
 # }}} /RUBY-RELATED
 
 # }}} /LANGUAGES
+
+
+# {{{ GIT
+
+# {{{ vim-git
+#
+# syntax, indent, and filetype plugin files for git, gitcommit, gitconfig,
+# gitrebase, and gitsendemail.
+# }}}
+flavor 'tpope/vim-git'
+
+# }}} /GIT
