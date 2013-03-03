@@ -124,6 +124,7 @@ flavor 'tpope/vim-git'
 
 # }}} /GIT
 
+
 # {{{ MISC
 
 # {{{ characterize
@@ -139,5 +140,12 @@ flavor 'tpope/vim-git'
 # https://github.com/tpope/vim-characterize
 # }}}
 flavor 'tpope/vim-characterize'
+
+# {{{ ag.vim
+# This plugin is a front for ag, A.K.A. the_silver_searcher
+# https://github.com/vim-scripts/ag.vim
+# }}}
+flavor "ag.vim"
+
 
 # }}} /MISC
