@@ -80,6 +80,25 @@ flavor 'tpope/vim-rails'
 # }}}
 flavor 'tpope/vim-rake'
 
+# {{{ vim-bundler
+#
+# This is a lightweight bag of Vim goodies for Bundler, best accompanied by
+# rake.vim and/or rails.vim. Features:
+#
+# * :Bundle, which wraps bundle.
+#
+# * An internalized version of bundle open: :Bopen (and :Bsplit, :Btabedit, etc.)
+#
+# * 'path' and 'tags' are automatically altered to include all gems from your
+#   bundle. (Generate those tags with gem-ctags!)
+#
+# * Highlight Bundler keywords in Gemfile.
+#
+# * Support for gf in Gemfile.lock, plus syntax highlighting that distinguishes
+#   between installed and missing gems.
+# }}}
+flavor "tpope/vim-bundler"
+
 # }}} /RUBY-RELATED
 
 # }}} /LANGUAGES
