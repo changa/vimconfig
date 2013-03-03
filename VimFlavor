@@ -123,3 +123,21 @@ flavor 'tpope/vim-git'
  flavor 'tpope/vim-fugitive'
 
 # }}} /GIT
+
+# {{{ MISC
+
+# {{{ characterize
+
+# In Vim, pressing ga on a character reveals its representation in decimal,
+# octal, and hex. Characterize.vim modernizes this with the following additions:
+#
+# * Unicode character names: U+00A9 COPYRIGHT SYMBOL
+# * Vim digraphs (type after <C-K> to insert the character): Co, cO
+# * Emoji codes: :copyright:
+# * HTML entities: &copy;
+#
+# https://github.com/tpope/vim-characterize
+# }}}
+flavor 'tpope/vim-characterize'
+
+# }}} /MISC
