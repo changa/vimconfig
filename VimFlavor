@@ -24,6 +24,17 @@
 # }}}
 flavor "tpope/vim-sensible"
 
+# {{{ vim-surround
+#
+# Surround.vim is all about "surroundings": parentheses, brackets, quotes, XML
+# tags, and more. The plugin provides mappings to easily delete, change and add
+# such surroundings in pairs.
+#
+# http://www.vim.org/scripts/script.php?script_id=1697
+# https://github.com/tpope/vim-surround
+# }}}
+flavor 'surround.vim'
+
 
 # }}} /BASICS
 
