@@ -11,13 +11,13 @@ gem to manage dependencies.
 
 ## Noteworthy plugins:
 
- * [sensible.vim](https://gitub.com/tpope/vim-sensible)
- * [surround.vim](https://gitub.com/tpope/vim-/ensible)
- * [repeat.vim](https://gitub.com/tpope/vim-repeat)
- * [supertab](https://gitub.com/ervandew/supertab)
- * [vim-git](https://gitub.com/tpope/vim-git)
- * [fugitive.vim](https://gitub.com/tpope/vim-fugitive)
- * [characterize.vim](https://gitub.com/tpope/vim-characterize)
- * [ag.vim](https://gitub.com/vim-scripts/ag.vim)
+ * [sensible.vim](https://github.com/tpope/vim-sensible)
+ * [surround.vim](https://github.com/tpope/vim-/ensible)
+ * [repeat.vim](https://github.com/tpope/vim-repeat)
+ * [supertab](https://github.com/ervandew/supertab)
+ * [vim-git](https://github.com/tpope/vim-git)
+ * [fugitive.vim](https://github.com/tpope/vim-fugitive)
+ * [characterize.vim](https://github.com/tpope/vim-characterize)
+ * [ag.vim](https://github.com/vim-scripts/ag.vim)
  * [tabular](https://github.com/godlygeek/tabular)
  * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)
