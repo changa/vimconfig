@@ -19,4 +19,5 @@ gem to manage dependencies.
  * [fugitive.vim](https://gitub.com/tpope/vim-fugitive)
  * [characterize.vim](https://gitub.com/tpope/vim-characterize)
  * [ag.vim](https://gitub.com/vim-scripts/ag.vim)
+ * [tabular](https://github.com/godlygeek/tabular)
  * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)

@@ -155,6 +155,11 @@ flavor 'tpope/vim-characterize'
 # }}}
 flavor "ag.vim"
 
+# {{{ tabular
+# https://github.com/godlygeek/tabular.git
+# Technically, we'll use my fork since upstream doesnt tag ;_;
+flavor "changa/tabular"
+# }}}
 
 # }}} /MISC
 
