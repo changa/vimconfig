@@ -154,6 +154,7 @@ flavor "ag.vim"
 #
 # All of kana's plugins (https://github.com/kana?tab=repositories)
 #
+# flavor "kien/ctrlp.vim" #https://github.com/kien/ctrlp.vim
 # flavor "tpope/vim-rbenv" # https://github.com/tpope/vim-rbenv
 # flavor "tpope/vim-unimpaired" # https://github.com/tpope/vim-unimpaired
 # flavor "tpope/vim-rhubarb" # https://github.com/tpope/vim-rhubarb
