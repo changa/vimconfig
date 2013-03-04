@@ -149,3 +149,14 @@ flavor "ag.vim"
 
 
 # }}} /MISC
+
+# {{{ TO TEST SOME DAY
+#
+# All of kana's plugins (https://github.com/kana?tab=repositories)
+#
+# flavor "tpope/vim-rbenv" # https://github.com/tpope/vim-rbenv
+# flavor "tpope/vim-unimpaired" # https://github.com/tpope/vim-unimpaired
+# flavor "tpope/vim-rhubarb" # https://github.com/tpope/vim-rhubarb
+# flavor "tpope/tslime.vim" # https://g-railsithub.com/kikijump/tslime.vim
+# flavor "ngn/vim-buffing-wheel" # https://github.com/ngn/vim-buffing-wheel
+# }}}
