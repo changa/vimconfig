@@ -124,6 +124,14 @@ flavor 'tpope/vim-git'
 
 # }}} /GIT
 
+# {{{ COMPLETION
+
+# {{{ supertab
+# https://github.com/ervandew/supertab
+# }}}
+flavor "ervandew/supertab"
+
+# }}}
 
 # {{{ MISC
 

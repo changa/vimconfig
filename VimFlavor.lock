@@ -1,5 +1,6 @@
 ag.vim (1.0)
 easybuffer.vim (0.1.4)
+ervandew/supertab (2.0)
 surround.vim (2.0)
 tpope/vim-bundler (v1.0)
 tpope/vim-characterize (v1.0)

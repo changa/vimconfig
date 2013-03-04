@@ -14,6 +14,7 @@ gem to manage dependencies.
  * [sensible.vim](https://gitub.com/tpope/vim-sensible)
  * [surround.vim](https://gitub.com/tpope/vim-/ensible)
  * [repeat.vim](https://gitub.com/tpope/vim-repeat)
+ * [supertab](https://gitub.com/ervandew/supertab)
  * [vim-git](https://gitub.com/tpope/vim-git)
  * [fugitive.vim](https://gitub.com/tpope/vim-fugitive)
  * [characterize.vim](https://gitub.com/tpope/vim-characterize)
