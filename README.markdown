@@ -1,12 +1,26 @@
-My vim config
--------------
+# My vim config
 
 
 My little own vim configuration. Use and fork as you see fit.
 
 
-You will need the awesome [vim-flavor](https://github.com/kana/vim-flavor) ruby
-gem to manage dependencies.
+## Dependencies
+
+  * mandatory
+    * [Ruby](http://www.ruby-lang.org/)
+    * the awesome [vim-flavor](https://github.com/kana/vim-flavor) ruby gem to
+      manage vim dependencies.
+
+  * optional
+    * [the silver searcher](https://github.com/ggreer/the_silver_searcher)
+
+## Usage
+
+It's not usable yet. Looots of things still need to be done. However, the main
+idea is:
+
+  * git clone the project: `git clone https://github.com/changa/vimconfig ~/.vim`
+  * boostrap: `cd ~/.vim && make`
 
 
 ## Noteworthy plugins:
