@@ -21,6 +21,8 @@ idea is:
 
   * git clone the project: `git clone https://github.com/changa/vimconfig ~/.vim`
   * boostrap: `cd ~/.vim && make`
+  * add your local settings or overrides in `~/.vim/vimrc.local`
+  * Profit!
 
 
 ## Noteworthy plugins:
