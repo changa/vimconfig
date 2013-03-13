@@ -31,6 +31,7 @@ augroup strip_whitespaces
   autocmd FileType ruby autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
   autocmd FileType javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
   autocmd FileType markdown autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+  autocmd FileType vim autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 augroup END
 
 " }}}
