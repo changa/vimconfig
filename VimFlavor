@@ -59,6 +59,7 @@ flavor 'tpope/vim-repeat'
 # }}}
 flavor "easybuffer.vim"
 
+flavor "scrooloose/nerdtree"
 # }}}
 
 
