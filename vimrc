@@ -2,13 +2,70 @@
 
 set nocompatible
 
-
-set number " always show line numbers
-
-
 " Load flavors from VimFlavor file
 " see https://github.com/kana/vim-flavor
 runtime flavors/bootstrap.vim
+
+" {{{ Basics
+
+set number     " always show line numbers
+set hlsearch   " highlight searches by default
+set smartcase  " …unless they contain a capital letter
+set cursorline " Show current line with a marker
+set autoread   " Automatically reload an externally modified file
+set visualbell
+set hidden     " Avoid asking to save before hiding
+
+"
+" Indentation
+"
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set shiftround
+set nojoinspaces
+set nofoldenable
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+
+"
+" Soft/Hard Wrapping
+"
+set wrap
+set textwidth=79
+set formatoptions=qrn1
+
+"
+" History and backup
+"
+set viminfo='10,:20,\"100,%,n~/.viminfo
+set history=1000
+set nobackup
+set nowritebackup
+set noswapfile
+
+" Spaces and tabs
+"
+set listchars=nbsp:·,tab:»–,trail:·
+set list
+
+" Color long lines limit
+autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn ctermbg=DarkGrey ctermfg=white guibg=#222
+
+if exists('+colorcolumn')
+  if exists('textwidth')
+    autocmd BufRead,BufNewFile,BufWinEnter * set colorcolumn=+1
+  else
+    autocmd BufRead,BufNewFile,BufWinEnter * set colorcolumn=81
+  end
+else
+  au BufRead,BufWinEnter * match ColorColumn /\%81v./
+endif
+
+
+" }}}
 
 " {{{ Whitespace clean-up
 
@@ -34,12 +91,6 @@ augroup strip_whitespaces
   autocmd FileType vim autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 augroup END
 
-" }}}
-
-" {{{ Spaces and tabs
-"
-set listchars=nbsp:·,tab:»–,trail:·
-set list
 " }}}
 
 " {{{ Load key mappings
