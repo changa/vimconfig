@@ -42,6 +42,12 @@ set listchars=nbsp:·,tab:»–,trail:·
 set list
 " }}}
 
+" {{{ Load key mappings
+
+exec 'source ' . expand("~/.vim/key_mappings/command_line.vim")
+exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
+" }}}
+
 colorscheme Tomorrow-Night-Bright
 
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
