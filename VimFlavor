@@ -174,6 +174,16 @@ flavor "changa/tabular"
 
 # }}} /MISC
 
+
+# {{{ SYNTAX CHECKING
+
+# {{{ Syntastic
+# https://github.com/scrooloose/syntastic
+# }}}
+flavor "scrooloose/syntastic"
+
+# }}}
+
 # {{{ TO TEST SOME DAY
 #
 # All of kana's plugins (https://github.com/kana?tab=repositories)
