@@ -1,2 +1,7 @@
 # Ignore local-only settings
 /vimrc.local
+
+# Ignore generated flavors file
+/flavors
+
+.netrwhist
