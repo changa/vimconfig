@@ -109,8 +109,8 @@ endif
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 " Always leave this at the very end of the file
-if filereadable(expand("./vimrc.local"))
+if filereadable(expand("~/vimrc.local"))
   " This file can be used to override global settings
-  source ./vimrc.local
+  exec 'source ' . expand("~/vimrc.local")
 endif
 " }}}
