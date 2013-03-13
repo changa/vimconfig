@@ -50,6 +50,11 @@ exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
 
 colorscheme Tomorrow-Night-Bright
 
+if has("autocmd")
+    " Save on focusLost
+    autocmd FocusLost * :silent! wall
+endif
+
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 " Always leave this at the very end of the file
