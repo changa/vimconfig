@@ -41,6 +41,8 @@ set listchars=nbsp:·,tab:»–,trail:·
 set list
 " }}}
 
+colorscheme Tomorrow-Night-Bright
+
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 " Always leave this at the very end of the file

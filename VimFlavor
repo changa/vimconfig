@@ -139,6 +139,14 @@ flavor "ervandew/supertab"
 
 # }}}
 
+# {{{ COLOR THEMES
+
+flavor "changa/vim-tomorrow-theme"
+flavor "molokai"
+
+# }}}
+
+
 # {{{ MISC
 
 # {{{ characterize
