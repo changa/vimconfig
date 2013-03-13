@@ -120,6 +120,19 @@ exec 'source ' . expand("~/.vim/key_mappings/command_line.vim")
 exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
 " }}}
 
+" {{{ Skeletons
+
+augroup skeletons
+  au!
+  :autocmd BufNewFile  *.rb,*.rake 0r ~/.vim/skeletons/skeleton.rb
+  :autocmd BufNewFile  *.sh        0r ~/.vim/skeletons/skeleton.sh
+
+  " Go directly to third line and start in insertion mode
+  :autocmd BufNewFile  *.rb,*.rake,*.sh :normal 3G
+  :autocmd BufNewFile  *.rb,*.rake,*.sh :startinsert
+augroup END
+
+" }}}
 colorscheme Tomorrow-Night-Bright
 
 if has("autocmd")
