@@ -155,6 +155,11 @@ flavor "ervandew/supertab"
 # }}}
 flavor 'tpope/vim-characterize'
 
+# {{{ ack.vim
+# https://github.com/vim-scripts/ack.vim
+# }}}
+flavor "ack.vim"
+
 # {{{ ag.vim
 # This plugin is a front for ag, A.K.A. the_silver_searcher
 # https://github.com/vim-scripts/ag.vim
