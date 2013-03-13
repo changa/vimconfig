@@ -1,4 +1,4 @@
-" vim: set foldmethod=marker :
+" vim: set foldmethod=marker
 
 set nocompatible
 
@@ -64,7 +64,28 @@ else
   au BufRead,BufWinEnter * match ColorColumn /\%81v./
 endif
 
+" Status line
+set statusline=
+set statusline+=%3.3n\                       " buffer number
+set statusline+=%f\                          " file name
+set statusline+=%h%1*%m%r%w%0*               " flags
+set statusline+=\[%{strlen(&ft)?&ft:'none'}, " filetype
+set statusline+=%{strlen(&fenc)?&fenc:&enc}%{&bomb?'/bom':''}, " encoding
+set statusline+=%{&fileformat}]              " file format
+set statusline+=%{fugitive#statusline()}     " show git status
+set statusline+=%=                           " right align
 
+" Syntastic status line
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+set statusline+=\
+
+set statusline+=0x%-8B\                      " current char
+set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
+
+set laststatus=2
 " }}}
 
 " {{{ Whitespace clean-up
