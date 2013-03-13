@@ -107,6 +107,9 @@ flavor "tpope/vim-bundler"
 
 # }}} /RUBY-RELATED
 
+# slim
+flavor "changa/vim-slim"
+
 # }}} /LANGUAGES
 
 
@@ -130,6 +133,7 @@ flavor 'tpope/vim-git'
 
 # }}} /GIT
 
+
 # {{{ COMPLETION
 
 # {{{ supertab
@@ -138,6 +142,7 @@ flavor 'tpope/vim-git'
 flavor "ervandew/supertab"
 
 # }}}
+
 
 # {{{ COLOR THEMES
 
@@ -191,6 +196,7 @@ flavor "changa/tabular"
 flavor "scrooloose/syntastic"
 
 # }}}
+
 
 # {{{ TO TEST SOME DAY
 #
