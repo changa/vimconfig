@@ -1,7 +1,10 @@
-install: ~/.vimrc vim-flavor make_undo_dir
+install: ~/.vimrc ~/.gvimrc vim-flavor make_undo_dir
 
 ~/.vimrc:
 	ln -s `pwd`/vimrc ~/.vimrc
+
+~/.gvimrc:
+	ln -s `pwd`/gvimrc ~/.gvimrc
 
 install-vim-flavor:
 	gem install vim-flavor --version '>= 1.1.2' --conservative
