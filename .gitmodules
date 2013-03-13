@@ -1,3 +1,6 @@
 [submodule "colors/molokai"]
 	path = colors/molokai
 	url = git://github.com/vim-scripts/molokai.git
+[submodule "colors/tomorrow"]
+	path = colors/tomorrow
+	url = https://github.com/chriskempson/vim-tomorrow-theme
