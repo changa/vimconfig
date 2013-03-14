@@ -145,6 +145,17 @@ flavor "ervandew/supertab"
 # }}}
 
 
+# {{{ TEXT OBJECTS
+
+# {{{ textobj-entire
+# Text objects for entire buffer
+# https://github.com/tpope/vim-characterize
+# }}}
+flavor 'kana/vim-textobj-entire'
+
+# }}}
+
+
 # {{{ COLOR THEMES
 
 flavor "changa/vim-tomorrow-theme"
