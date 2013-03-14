@@ -111,6 +111,9 @@ flavor "tpope/vim-bundler"
 # slim
 flavor "changa/vim-slim"
 
+# haml, sass and scss
+flavor 'changa/vim-haml'
+
 # }}} /LANGUAGES
 
 
