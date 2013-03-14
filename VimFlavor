@@ -114,6 +114,9 @@ flavor "changa/vim-slim"
 # haml, sass and scss
 flavor 'changa/vim-haml'
 
+# markdown
+flavor 'changa/vim-markdown'
+
 # }}} /LANGUAGES
 
 
