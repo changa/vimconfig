@@ -193,6 +193,10 @@ flavor "ag.vim"
 flavor "changa/tabular"
 # }}}
 
+
+# https://github.com/tpope/vim-unimpaired
+flavor "tpope/vim-unimpaired"
+
 # }}} /MISC
 
 
@@ -212,7 +216,6 @@ flavor "scrooloose/syntastic"
 #
 # flavor "kien/ctrlp.vim" #https://github.com/kien/ctrlp.vim
 # flavor "tpope/vim-rbenv" # https://github.com/tpope/vim-rbenv
-# flavor "tpope/vim-unimpaired" # https://github.com/tpope/vim-unimpaired
 # flavor "tpope/vim-rhubarb" # https://github.com/tpope/vim-rhubarb
 # flavor "tpope/tslime.vim" # https://g-railsithub.com/kikijump/tslime.vim
 # flavor "ngn/vim-buffing-wheel" # https://github.com/ngn/vim-buffing-wheel
