@@ -1,4 +1,4 @@
-install: ~/.vimrc ~/.gvimrc vim-flavor make_undo_dir
+install: ~/.vimrc ~/.gvimrc vim-flavor make_dirs
 
 ~/.vimrc:
 	ln -s `pwd`/vimrc ~/.vimrc
@@ -12,8 +12,10 @@ install-vim-flavor:
 vim-flavor: install-vim-flavor
 	vim-flavor install
 
-configure_vim_sensible: make_undo_dir
+configure_vim_sensible: make_dirs
 
-make_undo_dir:
-	[ "`uname`" != "Linux" ] || mkdir -p ~/.local/share/vim/undo
-	[ "`uname`" != "Darwin" ] || mkdir -p ~/Library/Vim/undo
+make_dirs:
+	mkdir -p ~/.cache/vim/undo \
+		~/.cache/vim/swap \
+		~/.cache/vim/backup \
+		~/.cache/vim/undo \
