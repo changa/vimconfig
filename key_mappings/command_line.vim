@@ -33,6 +33,7 @@ nnoremap <C-PageDown> :bn<cr>
 " SELECTION {{{
 
 " Visually select the text that was last edited/pasted
+" see http://vimcasts.org/episodes/bubbling-text
 nmap gV `[v`]
 
 " }}}
