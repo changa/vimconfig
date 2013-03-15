@@ -169,6 +169,7 @@ flavor 'kana/vim-textobj-entire'
 
 flavor "changa/vim-tomorrow-theme"
 flavor "molokai"
+flavor 'tpope/vim-vividchalk'
 
 # }}}
 
