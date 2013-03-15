@@ -218,6 +218,16 @@ flavor "changa/tabular"
 # https://github.com/tpope/vim-unimpaired
 flavor "tpope/vim-unimpaired"
 
+# {{{ vim-smartinput
+# *smartinput* is a Vim plugin to provide smart input assistant.
+# Whenever you write a text, especially source code, you have to input and deal
+# with pairs of punctuations such as (), [], {}, and so on. This plugin
+# provides various input assistants for such characters according to the current
+# context by default, and you can define your own rules to how the smart input
+# assistant behaves in Insert mode and Command-line mode.
+# }}
+flavor "kana/vim-smartinput"
+
 # }}} /MISC
 
 
