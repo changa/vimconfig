@@ -106,6 +106,15 @@ flavor 'tpope/vim-rake'
 # }}}
 flavor "tpope/vim-bundler"
 
+# {{{ vim-rbenv
+#
+# This simple plugin provides a :Rbenv command that wraps !rbenv
+# with tab complete. It also tells recent versions of vim-ruby where your Ruby
+# installs are located, so that it can set 'path' and 'tags' in your Ruby
+# buffers to reflect the nearest .ruby-version file
+flavor "tpope/vim-rbenv"
+# }}}
+
 # }}} /RUBY-RELATED
 
 # slim
@@ -246,7 +255,6 @@ flavor "scrooloose/syntastic"
 # All of kana's plugins (https://github.com/kana?tab=repositories)
 #
 # flavor "kien/ctrlp.vim" #https://github.com/kien/ctrlp.vim
-# flavor "tpope/vim-rbenv" # https://github.com/tpope/vim-rbenv
 # flavor "tpope/vim-rhubarb" # https://github.com/tpope/vim-rhubarb
 # flavor "tpope/tslime.vim" # https://g-railsithub.com/kikijump/tslime.vim
 # flavor "ngn/vim-buffing-wheel" # https://github.com/ngn/vim-buffing-wheel
