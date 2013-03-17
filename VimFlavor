@@ -248,8 +248,14 @@ flavor "kana/vim-smartinput"
 flavor "scrooloose/syntastic"
 # }}}
 
+# {{{ ctrlp
+#
+# Full path fuzzy file, buffer, mru, tag, ... finder for Vim
+# http://kien.github.com/ctrlp.vim/
+flavor "kien/ctrlp.vim"
 # }}}
 
+# }}}
 
 # {{{ TO TEST SOME DAY
 #
