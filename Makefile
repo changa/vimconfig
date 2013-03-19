@@ -19,3 +19,6 @@ make_dirs:
 		~/.cache/vim/swap \
 		~/.cache/vim/backup \
 		~/.cache/vim/undo \
+
+readme:
+	./update_readme
