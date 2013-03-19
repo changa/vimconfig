@@ -16,9 +16,6 @@ My little own vim configuration. Use and fork as you see fit.
 
 ## Usage
 
-It's not usable yet. Looots of things still need to be done. However, the main
-idea is:
-
   * git clone the project: `git clone https://github.com/changa/vimconfig ~/.vim`
   * boostrap: `cd ~/.vim && make`
   * add your local settings or overrides in `~/.vim/vimrc.local`
