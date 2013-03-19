@@ -261,7 +261,10 @@ flavor "kien/ctrlp.vim"
 #
 # All of kana's plugins (https://github.com/kana?tab=repositories)
 #
-# flavor "kien/ctrlp.vim" #https://github.com/kien/ctrlp.vim
+# https://github.com/shougo/neocomplcache
+# https://github.com/Shougo/neosnippet
+# http://majutsushi.github.com/tagbar/
+# https://github.com/xolox/vim-easytags
 # flavor "tpope/vim-rhubarb" # https://github.com/tpope/vim-rhubarb
 # flavor "tpope/tslime.vim" # https://g-railsithub.com/kikijump/tslime.vim
 # flavor "ngn/vim-buffing-wheel" # https://github.com/ngn/vim-buffing-wheel
