@@ -224,6 +224,10 @@ flavor "ag.vim"
 flavor "changa/tabular"
 # }}}
 
+# {{{ css-color
+flavor "changa/vim-css-color"
+# }}}
+
 
 # https://github.com/tpope/vim-unimpaired
 flavor "tpope/vim-unimpaired"
