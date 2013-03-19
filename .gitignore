@@ -5,3 +5,6 @@
 /flavors
 
 .netrwhist
+
+# Ignore local dictionaries
+/spell
