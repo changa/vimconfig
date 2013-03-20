@@ -20,5 +20,5 @@ make_dirs:
 		~/.cache/vim/backup \
 		~/.cache/vim/undo \
 
-readme:
+README.markdown: VimFlavor
 	./update_readme
