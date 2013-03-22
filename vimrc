@@ -89,28 +89,30 @@ set laststatus=2
 " }}}
 
 " {{{ Whitespace clean-up
+" See http://vimcasts.org/episodes/tidying-whitespace/
 
-" Also see http://vimcasts.org/episodes/tidying-whitespace/
-function! <SID>StripTrailingWhitespaces()
-    " Preparation: save last search, and cursor position.
-    let _s=@/
-    let l = line(".")
-    let c = col(".")
-    " Do the business:
-    %s/\s\+$//e
-    " Clean up: restore previous search history, and cursor position
-    let @/=_s
-    call cursor(l, c)
+" Maps {{{
+nmap _$ :call Preserve("%s/\\s\\+$//e")<CR>
+nmap _= :call Preserve("normal gg=G")<CR>
+" }}}
+
+" Code {{{
+function! Preserve(command)
+  " Preparation: save last search, and cursor position.
+  let _s=@/
+  let l = line(".")
+  let c = col(".")
+  " Do the business:
+  execute a:command
+  " Clean up: restore previous search history, and cursor position
+  let @/=_s
+  call cursor(l, c)
 endfunction
 
-" Remove trailing spaces
-augroup strip_whitespaces
-  au!
-  autocmd FileType ruby autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-  autocmd FileType javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-  autocmd FileType markdown autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-  autocmd FileType vim autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
-augroup END
+function! StripTrailingWhitespaces()
+  call Preserve("%s/\\s\\+$//e")
+endfunction
+" }}}
 
 " }}}
 
