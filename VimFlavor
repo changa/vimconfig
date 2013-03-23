@@ -63,7 +63,7 @@ flavor "scrooloose/nerdtree"
 # }}}
 
 
-# {{{ LANGUAGES
+# {{{ LANGUAGES & SYNTAXES
 
 # {{{ RUBY-RELATED
 
@@ -129,6 +129,9 @@ flavor 'changa/vim-markdown'
 
 # javascript
 flavor 'vim-javascript'
+
+# nginx
+flavor 'nginx.vim'
 
 # }}} /LANGUAGES
 
