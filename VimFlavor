@@ -130,6 +130,9 @@ flavor 'changa/vim-markdown'
 # javascript
 flavor 'vim-javascript'
 
+# coffeescript
+flavor 'vim-coffee-script'
+
 # nginx
 flavor 'nginx.vim'
 

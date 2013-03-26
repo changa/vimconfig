@@ -38,6 +38,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [tabular](https://github.com/changa/tabular)
  * [vim-bundler](https://github.com/tpope/vim-bundler)
  * [vim-characterize](https://github.com/tpope/vim-characterize)
+ * [vim-coffee-script](https://github.com/vim-scripts/vim-coffee-script)
  * [vim-css-color](https://github.com/changa/vim-css-color)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
