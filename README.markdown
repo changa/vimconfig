@@ -30,6 +30,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)
  * [molokai](https://github.com/vim-scripts/molokai)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
+ * [nginx.vim](https://github.com/vim-scripts/nginx.vim)
  * [supertab](https://github.com/ervandew/supertab)
  * [surround.vim](https://github.com/vim-scripts/surround.vim)
  * [syntastic](https://github.com/scrooloose/syntastic)
