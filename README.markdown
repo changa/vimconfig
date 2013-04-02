@@ -47,6 +47,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-haml](https://github.com/changa/vim-haml)
  * [vim-javascript](https://github.com/vim-scripts/vim-javascript)
  * [vim-markdown](https://github.com/changa/vim-markdown)
+ * [vim-metarw-git](https://github.com/kana/vim-metarw-git)
  * [vim-rails](https://github.com/tpope/vim-rails)
  * [vim-rake](https://github.com/tpope/vim-rake)
  * [vim-rbenv](https://github.com/tpope/vim-rbenv)

@@ -148,7 +148,6 @@ flavor 'nginx.vim'
 flavor 'tpope/vim-git'
 # }}}
 
-
 # {{{ vim-fugitive
 #
 # fugitive.vim: a Git wrapper so awesome, it should be illegal
@@ -156,6 +155,14 @@ flavor 'tpope/vim-git'
 # https://github.com/tpope/vim-fugitive
 flavor 'tpope/vim-fugitive'
 # }}}
+
+# {{{ vim-metarw-git
+
+# *metarw-git* is a scheme for |metarw| to read or to browse various objects in
+# a git repository with fakepaths like "git:HEAD~3:src/ui.c".
+flavor "kana/vim-metarw-git"
+# }}}
+
 
 # }}} /GIT
 
