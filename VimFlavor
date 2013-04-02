@@ -234,9 +234,9 @@ flavor "changa/tabular"
 flavor "changa/vim-css-color"
 # }}}
 
-
-# https://github.com/tpope/vim-unimpaired
+# {{{ https://github.com/tpope/vim-unimpaired
 flavor "tpope/vim-unimpaired"
+# }}}
 
 # {{{ vim-smartinput
 # *smartinput* is a Vim plugin to provide smart input assistant.
@@ -247,6 +247,13 @@ flavor "tpope/vim-unimpaired"
 # assistant behaves in Insert mode and Command-line mode.
 flavor "kana/vim-smartinput"
 # }}}
+
+# {{{ vim-grex
+# *grex* is a Vim plugin to provide useful commands to operate on
+# lines matched to the last search pattern
+flavor "kana/vim-grex"
+# }}}
+
 
 # }}} /MISC
 

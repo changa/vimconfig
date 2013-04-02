@@ -43,6 +43,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-git](https://github.com/tpope/vim-git)
+ * [vim-grex](https://github.com/kana/vim-grex)
  * [vim-haml](https://github.com/changa/vim-haml)
  * [vim-javascript](https://github.com/vim-scripts/vim-javascript)
  * [vim-markdown](https://github.com/changa/vim-markdown)
