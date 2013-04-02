@@ -43,8 +43,8 @@ flavor 'surround.vim'
 # remaps . in a way that plugins can tap into it.
 #
 # http://www.vim.org/scripts/script.php?script_id=2136
-# https://github.com/tpope/vim-repeat
-flavor 'tpope/vim-repeat'
+# https://github.com/kana/vim-repeat
+flavor 'kana/vim-repeat'
 # }}}
 
 # }}} /BASICS
