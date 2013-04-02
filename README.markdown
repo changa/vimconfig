@@ -56,6 +56,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-slim](https://github.com/changa/vim-slim)
  * [vim-smartinput](https://github.com/kana/vim-smartinput)
  * [vim-textobj-entire](https://github.com/kana/vim-textobj-entire)
+ * [vim-textobj-line](https://github.com/kana/vim-textobj-line)
  * [vim-tomorrow-theme](https://github.com/changa/vim-tomorrow-theme)
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
- * [vim-vividchalk](https://github.com/tpope/vim-vividchalk))
+ * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)

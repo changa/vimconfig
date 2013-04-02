@@ -185,6 +185,9 @@ flavor "ervandew/supertab"
 flavor 'kana/vim-textobj-entire'
 # }}}
 
+# Vim plugin to provide text objects to select a portion of the current line
+flavor "kana/vim-textobj-line"
+
 # }}}
 
 
@@ -283,7 +286,9 @@ flavor "kien/ctrlp.vim"
 
 # {{{ TO TEST SOME DAY
 #
-# All of kana's plugins (https://github.com/kana?tab=repositories)
+# All of kana's plugins, especially:
+# kana/vim-smarttill
+# kana/vim-smartword
 #
 # https://github.com/shougo/neocomplcache
 # https://github.com/Shougo/neosnippet
