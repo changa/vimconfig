@@ -272,7 +272,7 @@ flavor "kana/vim-grex"
 
 # {{{ Syntastic
 # https://github.com/scrooloose/syntastic
-flavor "scrooloose/syntastic"
+flavor "changa/syntastic"
 # }}}
 
 # {{{ ctrlp
