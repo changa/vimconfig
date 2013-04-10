@@ -136,6 +136,9 @@ flavor 'vim-coffee-script'
 # nginx
 flavor 'nginx.vim'
 
+# Postgres
+flavor "changa/psql.vim"
+
 # }}} /LANGUAGES
 
 

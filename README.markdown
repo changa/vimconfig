@@ -31,6 +31,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [molokai](https://github.com/vim-scripts/molokai)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
  * [nginx.vim](https://github.com/vim-scripts/nginx.vim)
+ * [psql.vim](https://github.com/changa/psql.vim)
  * [supertab](https://github.com/ervandew/supertab)
  * [surround.vim](https://github.com/vim-scripts/surround.vim)
  * [syntastic](https://github.com/changa/syntastic)
@@ -59,4 +60,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-textobj-line](https://github.com/kana/vim-textobj-line)
  * [vim-tomorrow-theme](https://github.com/changa/vim-tomorrow-theme)
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
- * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)alk)
+ * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)halk)
