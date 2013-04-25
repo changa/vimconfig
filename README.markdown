@@ -44,6 +44,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-git](https://github.com/tpope/vim-git)
+ * [vim-gitgutter](https://github.com/changa/vim-gitgutter)
  * [vim-grex](https://github.com/kana/vim-grex)
  * [vim-haml](https://github.com/changa/vim-haml)
  * [vim-javascript](https://github.com/vim-scripts/vim-javascript)
@@ -61,4 +62,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-textobj-line](https://github.com/kana/vim-textobj-line)
  * [vim-tomorrow-theme](https://github.com/changa/vim-tomorrow-theme)
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
- * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)halk)
+ * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)k)
