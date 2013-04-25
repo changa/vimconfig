@@ -1,3 +1,5 @@
+all: install README.markdown
+
 install: ~/.vimrc ~/.gvimrc vim-flavor make_dirs
 
 ~/.vimrc:
