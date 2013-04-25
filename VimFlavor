@@ -267,6 +267,10 @@ flavor "kana/vim-smartinput"
 flavor "kana/vim-grex"
 # }}}
 
+# {{{ obsession
+# obsession.vim: continuously updated session files
+flavor "changa/vim-obsession"
+# }}}
 
 # }}} /MISC
 
