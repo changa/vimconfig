@@ -43,6 +43,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-css-color](https://github.com/changa/vim-css-color)
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
+ * [vim-flavored-markdown](https://github.com/changa/vim-flavored-markdown)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-git](https://github.com/tpope/vim-git)
  * [vim-gitgutter](https://github.com/changa/vim-gitgutter)

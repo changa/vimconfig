@@ -127,6 +127,9 @@ flavor 'changa/vim-haml'
 # markdown
 flavor 'changa/vim-markdown'
 
+# vim-flavored-markdown
+flavor "changa/vim-flavored-markdown"
+
 # javascript
 flavor 'vim-javascript'
 
