@@ -135,7 +135,13 @@ augroup skeletons
 augroup END
 
 " }}}
+
 colorscheme Tomorrow-Night-Bright
+
+" {{{ Tags
+
+set tags+=~/.tags,.tags-gems
+" }}}
 
 if has("autocmd")
     " Save on focusLost
