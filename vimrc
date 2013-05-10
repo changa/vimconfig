@@ -142,6 +142,15 @@ if has("autocmd")
     autocmd FocusLost * :silent! wall
 endif
 
+" Misc {{{
+
+" Markdown preview configuration
+" I need to figure out a way to use an after/plugin hook for this instead of
+" polluting ~/.vimrc
+let g:MarkdownPreviewTMP = expand("~/.vim/flavors/changa_markdown-preview.vim/tmp/")
+let g:MarkdownPreviewDefaultStyles = expand("~/.vim/flavors/changa_markdown-preview.vim/stylesheets/")
+" }}}
+
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 " Always leave this at the very end of the file

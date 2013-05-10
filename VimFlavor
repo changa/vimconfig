@@ -130,6 +130,9 @@ flavor 'changa/vim-markdown'
 # vim-flavored-markdown
 flavor "changa/vim-flavored-markdown"
 
+# markdown-preview
+flavor "changa/markdown-preview.vim"
+
 # javascript
 flavor 'vim-javascript'
 
