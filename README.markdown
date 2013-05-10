@@ -35,7 +35,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [psql.vim](https://github.com/changa/psql.vim)
  * [supertab](https://github.com/ervandew/supertab)
  * [surround.vim](https://github.com/vim-scripts/surround.vim)
- * [syntastic](https://github.com/changa/syntastic)
+ * [syntastic](https://github.com/scrooloose/syntastic)
  * [tComment](https://github.com/vim-scripts/tComment)
  * [tabular](https://github.com/changa/tabular)
  * [vim-bundler](https://github.com/tpope/vim-bundler)

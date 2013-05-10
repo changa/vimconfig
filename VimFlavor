@@ -291,7 +291,7 @@ flavor "changa/vim-obsession"
 
 # {{{ Syntastic
 # https://github.com/scrooloose/syntastic
-flavor "changa/syntastic"
+flavor "scrooloose/syntastic"
 # }}}
 
 # {{{ ctrlp
