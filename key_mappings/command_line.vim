@@ -35,6 +35,12 @@ nnoremap <C-PageDown> :bn<cr>
 " Visually select the text that was last edited/pasted
 " see http://vimcasts.org/episodes/bubbling-text
 nmap gV `[v`]
+" single line bubbling
+nmap <C-k> [e
+nmap <C-j> ]e
+" visual selection bubbling
+vmap <C-k> [egv
+vmap <C-j> ]egv
 
 " }}}
 
