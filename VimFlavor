@@ -203,6 +203,9 @@ flavor 'kana/vim-textobj-entire'
 # Vim plugin to provide text objects to select a portion of the current line
 flavor "kana/vim-textobj-line"
 
+# Vim plugin: Text objects for indented blocks of lines
+flavor "kana/vim-textobj-indent"
+
 # }}}
 
 
