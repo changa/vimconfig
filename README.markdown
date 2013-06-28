@@ -45,6 +45,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-coffee-script](https://github.com/vim-scripts/vim-coffee-script)
  * [vim-css-color](https://github.com/changa/vim-css-color)
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
+ * [vim-elixir](https://github.com/changa/vim-elixir)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-flavored-markdown](https://github.com/changa/vim-flavored-markdown)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)

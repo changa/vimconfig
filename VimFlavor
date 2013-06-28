@@ -149,6 +149,9 @@ flavor 'nginx.vim'
 # Postgres
 flavor "changa/psql.vim"
 
+# Elixir
+flavor "changa/vim-elixir"
+
 # }}} /LANGUAGES
 
 
