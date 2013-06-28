@@ -127,6 +127,10 @@ flavor 'changa/vim-haml'
 # markdown
 flavor 'changa/vim-markdown'
 
+# multimarkdown
+flavor 'changa/vim-multimarkdown'
+
+
 # vim-flavored-markdown
 flavor "changa/vim-flavored-markdown"
 
@@ -314,6 +318,7 @@ flavor "Lokaltog/vim-easymotion"
 
 
 # }}}
+
 
 # {{{ TO TEST SOME DAY
 #
