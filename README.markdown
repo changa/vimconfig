@@ -68,3 +68,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-tomorrow-theme](https://github.com/changa/vim-tomorrow-theme)
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
+ * [vimroom](https://github.com/mikewest/vimroom)

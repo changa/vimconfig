@@ -291,6 +291,11 @@ flavor "kana/vim-grex"
 flavor "changa/vim-obsession"
 # }}}
 
+# {{{ vimroom
+# Simulating a vaguely WriteRoom-like environment in Vim
+flavor "mikewest/vimroom"
+# }}}
+
 # }}} /MISC
 
 
