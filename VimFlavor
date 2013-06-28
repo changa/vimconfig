@@ -191,6 +191,13 @@ flavor "changa/vim-gitgutter"
 # {{{ supertab
 # https://github.com/ervandew/supertab
 flavor "ervandew/supertab"
+
+# Snipmate and friends
+flavor "changa/vim-addon-mw-utils"
+flavor "tomtom/tlib_vim"
+flavor "garbas/vim-snipmate"
+flavor "changa/vim-snippets"
+
 # }}}
 
 # }}}
