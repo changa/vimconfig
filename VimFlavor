@@ -306,6 +306,12 @@ flavor "changa/vim-obsession"
 flavor "mikewest/vimroom"
 # }}}
 
+# {{{ vim-visual-star-search
+# Start a * or # search from a visual block
+# see also http://vimcasts.org/episodes/search-for-the-selected-text/
+flavor "nelstrom/vim-visual-star-search"
+# }}}
+
 # }}} /MISC
 
 

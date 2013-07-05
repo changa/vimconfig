@@ -72,5 +72,6 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-textobj-line](https://github.com/kana/vim-textobj-line)
  * [vim-tomorrow-theme](https://github.com/changa/vim-tomorrow-theme)
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
+ * [vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
  * [vimroom](https://github.com/mikewest/vimroom)
