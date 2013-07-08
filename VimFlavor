@@ -347,6 +347,7 @@ flavor "Lokaltog/vim-easymotion"
 # kana/vim-smarttill
 # kana/vim-smartword
 #
+# http://valloric.github.io/YouCompleteMe/
 # https://github.com/shougo/neocomplcache
 # https://github.com/Shougo/neosnippet
 # http://majutsushi.github.com/tagbar/
