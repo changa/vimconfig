@@ -16,6 +16,4 @@ if has('gui_running')
     endif
 
   endfunction
-
-  nnoremap <F10> :call ToggleToolbars()<CR>
 end
