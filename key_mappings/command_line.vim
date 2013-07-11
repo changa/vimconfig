@@ -77,6 +77,15 @@ noremap! \fn <C-R>=expand("%")<CR>
 " }}}
 
 
+" {{{ Surroundings
+" Surround with parens, braces or brackets in visual mode (courtesty @moa3)
+vnoremap ( "zdi(<C-R>z)<ESC>
+vnoremap { "zdi{<C-R>z}<ESC>
+vnoremap [ "zdi[<C-R>z]<ESC>
+vnoremap ' "zdi'<C-R>z'<ESC>
+vnoremap " "zdi"<C-R>z"<ESC>
+" }}}
+
 " {{{ CONFIG RELOADING
 
 " CTRL-R reloads the ~/.vimrc file
