@@ -47,6 +47,13 @@ flavor 'surround.vim'
 flavor 'kana/vim-repeat'
 # }}}
 
+# {{{ Gundo
+# Gundo provides a tree view for vim's changes history
+# We use sjl's Github mirror of the original mercurial repo
+# see http://sjl.bitbucket.org/gundo.vim/
+flavor "sjl/gundo.vim"
+# }}}
+
 # }}} /BASICS
 
 
