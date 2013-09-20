@@ -22,12 +22,6 @@ map <C-Right> :tabnext<CR>
 " Close current buffer
 nnoremap <C-w><C-d> :bd<cr>
 
-" Switch to previous buffer from history
-nnoremap <C-PageUp> :bp<cr>
-
-" Switch to previous buffer in history
-nnoremap <C-PageDown> :bn<cr>
-
 " }}}
 
 " SELECTION {{{
