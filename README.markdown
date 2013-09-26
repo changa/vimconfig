@@ -64,6 +64,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-rbenv](https://github.com/tpope/vim-rbenv)
  * [vim-repeat](https://github.com/kana/vim-repeat)
  * [vim-sensible](https://github.com/tpope/vim-sensible)
+ * [vim-signature](https://github.com/changa/vim-signature)
  * [vim-slim](https://github.com/changa/vim-slim)
  * [vim-smartinput](https://github.com/kana/vim-smartinput)
  * [vim-snipmate](https://github.com/garbas/vim-snipmate)

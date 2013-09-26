@@ -319,6 +319,12 @@ flavor "mikewest/vimroom"
 flavor "nelstrom/vim-visual-star-search"
 # }}}
 
+# {{{ vim-signature
+# Plugin to toggle, display and navigate marks
+# see https://github.com/changa/vim-signature
+flavor "changa/vim-signature"
+# }}}
+
 # }}} /MISC
 
 
