@@ -1,3 +1,6 @@
 autocmd BufWritePre <buffer> :call StripTrailingWhitespaces()
 set foldmethod=syntax
-set noballooneval
+
+if exists('+noballooneval')
+  set noballooneval
+endif
