@@ -140,7 +140,7 @@ colorscheme Tomorrow-Night-Bright
 
 " {{{ Tags
 
-set tags+=~/.tags,.tags-gems
+set tags+=~/.tags,.git/tags,tags
 " }}}
 
 if has("autocmd")
