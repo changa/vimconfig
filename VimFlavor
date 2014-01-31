@@ -137,7 +137,6 @@ flavor 'changa/vim-markdown'
 # multimarkdown
 flavor 'changa/vim-multimarkdown'
 
-
 # vim-flavored-markdown
 flavor "changa/vim-flavored-markdown"
 
@@ -149,6 +148,9 @@ flavor 'vim-javascript'
 
 # coffeescript
 flavor 'vim-coffee-script'
+
+# jade
+flavor 'changa/vim-jade'
 
 # nginx
 flavor 'nginx.vim'
