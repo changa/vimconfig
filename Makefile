@@ -9,7 +9,7 @@ install: ~/.vimrc ~/.gvimrc vim-flavor make_dirs
 	ln -s `pwd`/gvimrc ~/.gvimrc
 
 install-vim-flavor:
-	gem install vim-flavor --version '>= 1.1.2' --conservative
+	gem install vim-flavor --version '>= 1.1.3' --conservative
 
 vim-flavor: install-vim-flavor
 	vim-flavor install
