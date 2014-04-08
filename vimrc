@@ -159,9 +159,14 @@ let g:MarkdownPreviewDefaultStyles = expand("~/.vim/flavors/changa_markdown-prev
 
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
-" Always leave this at the very end of the file
 if filereadable(expand("~/.vim/vimrc.local"))
   " This file can be used to override global settings
   exec 'source ' . expand("~/.vim/vimrc.local")
 endif
+
+" Load local customizations from ./.vimrc but disable shell execution and write
+" operations
+" see http://www.ilker.de/specific-vim-settings-per-project.html
+set exrc
+set secure
 " }}}
