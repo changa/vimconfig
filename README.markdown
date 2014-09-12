@@ -26,7 +26,6 @@ My little own vim configuration. Use and fork as you see fit.
 
  * [ack.vim](https://github.com/vim-scripts/ack.vim)
  * [ag.vim](https://github.com/vim-scripts/ag.vim)
- * [ctrlp.vim](https://github.com/kien/ctrlp.vim)
  * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)
  * [gundo.vim](https://github.com/sjl/gundo.vim)
  * [markdown-preview.vim](https://github.com/changa/markdown-preview.vim)

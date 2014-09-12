@@ -5,6 +5,9 @@
 let g:unite_source_history_yank_enable = 1
 call unite#filters#matcher_default#use(['matcher_fuzzy'])
 
+" File searching like ctrlp.vim
+nnoremap <C-p> :Unite -no-split -buffer-name=files -start-insert -auto-preview file_rec/async<CR>
+
 " Search in buffers
 nnoremap <leader>b :<C-u>Unite -no-split -buffer-name=buffer -quick-match  buffer<CR>
 

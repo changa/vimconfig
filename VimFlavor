@@ -350,13 +350,6 @@ flavor "Lokaltog/vim-easymotion"
 
 # {{{ SEARCH
 
-# {{ ctrlp
-#
-# Full path fuzzy file, buffer, mru, tag, ... finder for Vim
-# http://kien.github.com/ctrlp.vim/
-flavor "kien/ctrlp.vim"
-# }}
-
 ### {{ unite and vimproc
 flavor "changa/vimproc.vim"
 flavor "changa/unite.vim"
