@@ -357,7 +357,12 @@ flavor "Lokaltog/vim-easymotion"
 flavor "kien/ctrlp.vim"
 # }}
 
+### {{ unite and vimproc
 flavor "changa/vimproc.vim"
+flavor "changa/unite.vim"
+flavor "changa/neomru.vim"
+# See http://www.codeography.com/2013/06/17/replacing-all-the-things-with-unite-vim.html
+# See http://bling.github.io//blog/2013/06/02/unite-dot-vim-the-plugin-you-didnt-know-you-need/#comment-919769841
 # }}
 #
 # }}}
