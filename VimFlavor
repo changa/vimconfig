@@ -337,13 +337,6 @@ flavor "changa/vim-signature"
 flavor "scrooloose/syntastic"
 # }}}
 
-# {{{ ctrlp
-#
-# Full path fuzzy file, buffer, mru, tag, ... finder for Vim
-# http://kien.github.com/ctrlp.vim/
-flavor "kien/ctrlp.vim"
-# }}}
-
 # {{{ easymotion
 # EasyMotion provides a much simpler way to use some motions in vim. It takes
 # the <number> out of <number>w or <number>f{char} by highlighting all possible
@@ -355,6 +348,19 @@ flavor "Lokaltog/vim-easymotion"
 
 # }}}
 
+# {{{ SEARCH
+
+# {{ ctrlp
+#
+# Full path fuzzy file, buffer, mru, tag, ... finder for Vim
+# http://kien.github.com/ctrlp.vim/
+flavor "kien/ctrlp.vim"
+# }}
+
+flavor "changa/vimproc.vim"
+# }}
+#
+# }}}
 
 # {{{ TO TEST SOME DAY
 #

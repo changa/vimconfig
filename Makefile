@@ -1,6 +1,8 @@
+.PHONY: vimproc
+
 all: install README.markdown
 
-install: ~/.vimrc ~/.gvimrc vim-flavor make_dirs
+install: ~/.vimrc ~/.gvimrc vim-flavor vimproc make_dirs
 
 ~/.vimrc:
 	ln -s `pwd`/vimrc ~/.vimrc
@@ -24,3 +26,6 @@ make_dirs:
 
 README.markdown: VimFlavor
 	./update_readme
+
+vimproc:
+	cd `pwd`/flavors/changa_vimproc.vim && make

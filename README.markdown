@@ -77,4 +77,5 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
  * [vim-visual-star-search](https://github.com/nelstrom/vim-visual-star-search)
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
+ * [vimproc.vim](https://github.com/changa/vimproc.vim)
  * [vimroom](https://github.com/mikewest/vimroom)
