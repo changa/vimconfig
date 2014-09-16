@@ -17,6 +17,9 @@ nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank  history/yank<CR>
 " Search MRU files
 nnoremap <leader>r :<C-u>Unite -no-split -buffer-name=mru -quick-match file_mru<CR>
 
+" Ag/ack + unite
+nnoremap <space>/ :<C-u>Unite -no-split -buffer-name=grep grep:.<cr>
+
 if executable('ack-grep')
   let g:unite_source_grep_command = 'ack-grep'
   let g:unite_source_grep_default_opts = '--no-heading --no-color -k -H'
