@@ -17,6 +17,17 @@ nnoremap <leader>y :<C-u>Unite -no-split -buffer-name=yank  history/yank<CR>
 " Search MRU files
 nnoremap <leader>r :<C-u>Unite -no-split -buffer-name=mru -quick-match file_mru<CR>
 
+if executable('ack-grep')
+  let g:unite_source_grep_command = 'ack-grep'
+  let g:unite_source_grep_default_opts = '--no-heading --no-color -k -H'
+  let g:unite_source_grep_recursive_opt = ''
+endif
+
+if executable('ag')
+  let g:unite_source_grep_command = 'ag'
+  let g:unite_source_grep_default_opts = '--noheading --nocolor'
+  let g:unite_source_grep_recursive_opt = ''
+endif
 
 
 " Custom mappings for the unite buffer
