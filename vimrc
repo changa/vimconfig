@@ -155,6 +155,9 @@ endif
 " polluting ~/.vimrc
 let g:MarkdownPreviewTMP = expand("~/.vim/flavors/changa_markdown-preview.vim/tmp/")
 let g:MarkdownPreviewDefaultStyles = expand("~/.vim/flavors/changa_markdown-preview.vim/stylesheets/")
+
+" Encryption
+set cryptmethod=blowfish
 " }}}
 
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
