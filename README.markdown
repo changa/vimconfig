@@ -12,6 +12,7 @@ My little own vim configuration. Use and fork as you see fit.
       manage vim dependencies.
 
   * optional
+    * [the platinum searcher](https://github.com/monochromegane/the_platinum_searcher)
     * [the silver searcher](https://github.com/ggreer/the_silver_searcher)
 
 ## Usage
