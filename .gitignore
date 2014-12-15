@@ -1,5 +1,6 @@
 # Ignore local-only settings
 /vimrc.local
+/gvimrc.local
 
 # Ignore generated flavors file
 /flavors
