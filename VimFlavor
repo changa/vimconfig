@@ -161,6 +161,9 @@ flavor "changa/psql.vim"
 # Elixir
 flavor "changa/vim-elixir"
 
+# Elm
+flavor "changa/elm.vim"
+
 # }}} /LANGUAGES
 
 
