@@ -36,6 +36,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [nerdtree](https://github.com/scrooloose/nerdtree)
  * [nginx.vim](https://github.com/vim-scripts/nginx.vim)
  * [psql.vim](https://github.com/changa/psql.vim)
+ * [rainbow](https://github.com/luochen1990/rainbow)
  * [supertab](https://github.com/ervandew/supertab)
  * [surround.vim](https://github.com/vim-scripts/surround.vim)
  * [syntastic](https://github.com/scrooloose/syntastic)

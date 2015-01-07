@@ -164,6 +164,9 @@ flavor "changa/vim-elixir"
 # Elm
 flavor "changa/elm.vim"
 
+# Lisps
+flavor "luochen1990/rainbow"
+
 # }}} /LANGUAGES
 
 
