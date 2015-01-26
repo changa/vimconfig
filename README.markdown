@@ -55,7 +55,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-flavored-markdown](https://github.com/changa/vim-flavored-markdown)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-git](https://github.com/tpope/vim-git)
- * [vim-gitgutter](https://github.com/changa/vim-gitgutter)
+ * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
  * [vim-grex](https://github.com/kana/vim-grex)
  * [vim-haml](https://github.com/changa/vim-haml)
  * [vim-jade](https://github.com/changa/vim-jade)
