@@ -159,7 +159,7 @@ flavor 'nginx.vim'
 flavor "changa/psql.vim"
 
 # Elixir
-flavor "changa/vim-elixir"
+flavor "elixir-lang/vim-elixir", branch: 'master'
 
 # Elm
 flavor "changa/elm.vim"
