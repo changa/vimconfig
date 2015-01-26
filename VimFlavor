@@ -162,7 +162,7 @@ flavor "changa/psql.vim"
 flavor "elixir-lang/vim-elixir", branch: 'master'
 
 # Elm
-flavor "changa/elm.vim"
+flavor "lambdatoast/elm.vim", branch: 'master'
 
 # Lisps
 flavor "luochen1990/rainbow"

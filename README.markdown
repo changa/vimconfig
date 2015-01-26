@@ -28,7 +28,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [ack.vim](https://github.com/vim-scripts/ack.vim)
  * [ag.vim](https://github.com/vim-scripts/ag.vim)
  * [easybuffer.vim](https://github.com/vim-scripts/easybuffer.vim)
- * [elm.vim](https://github.com/changa/elm.vim)
+ * [elm.vim](https://github.com/lambdatoast/elm.vim)
  * [gundo.vim](https://github.com/sjl/gundo.vim)
  * [markdown-preview.vim](https://github.com/changa/markdown-preview.vim)
  * [molokai](https://github.com/vim-scripts/molokai)
