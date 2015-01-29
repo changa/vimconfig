@@ -35,7 +35,7 @@ set shiftwidth=2
 "
 set wrap
 set textwidth=79
-set formatoptions=qrn1
+set formatoptions=qrn1j
 
 "
 " History and backup
