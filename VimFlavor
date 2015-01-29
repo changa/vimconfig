@@ -131,6 +131,9 @@ flavor "changa/vim-slim"
 # haml, sass and scss
 flavor 'changa/vim-haml'
 
+# css3
+flavor 'hail2u/vim-css3-syntax'
+
 # markdown
 flavor 'changa/vim-markdown'
 

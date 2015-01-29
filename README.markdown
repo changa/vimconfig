@@ -49,6 +49,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-characterize](https://github.com/tpope/vim-characterize)
  * [vim-coffee-script](https://github.com/vim-scripts/vim-coffee-script)
  * [vim-css-color](https://github.com/changa/vim-css-color)
+ * [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
  * [vim-elixir](https://github.com/elixir-lang/vim-elixir)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
