@@ -149,6 +149,9 @@ flavor "changa/markdown-preview.vim"
 # javascript
 flavor 'vim-javascript'
 
+# json
+flavor 'elzr/vim-json', branch: 'master'
+
 # coffeescript
 flavor 'vim-coffee-script'
 
