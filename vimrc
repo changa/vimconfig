@@ -10,7 +10,8 @@ runtime flavors/bootstrap.vim
 
 set number     " always show line numbers
 set hlsearch   " highlight searches by default
-set smartcase  " …unless they contain a capital letter
+set ignorecase " Do not pay attention to word case when searching
+set smartcase  " …unless pattern contains a capital letter
 set cursorline " Show current line with a marker
 set autoread   " Automatically reload an externally modified file
 set visualbell
