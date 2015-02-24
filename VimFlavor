@@ -173,6 +173,8 @@ flavor "lambdatoast/elm.vim", branch: 'master'
 # Lisps
 flavor "luochen1990/rainbow"
 
+flavor 'ditaa'
+
 # }}} /LANGUAGES
 
 
