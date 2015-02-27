@@ -1,10 +1,13 @@
 " vim: set foldmethod=marker :
 
 set nocompatible
+filetype off
 
 " Load flavors from VimFlavor file
 " see https://github.com/kana/vim-flavor
 runtime flavors/bootstrap.vim
+
+filetype on
 
 " {{{ Basics
 
