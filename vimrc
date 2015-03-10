@@ -20,6 +20,9 @@ set autoread   " Automatically reload an externally modified file
 set visualbell
 set hidden     " Avoid asking to save before hiding
 
+" Don't try to highlight lines longer than 800 characters.
+set synmaxcol=800
+
 "
 " Indentation
 "
