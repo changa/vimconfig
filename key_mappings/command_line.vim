@@ -3,6 +3,15 @@
 " set <Leader> to , (comma)
 let mapleader = ","
 
+" Directional keys {{{
+
+" Make linewrap-aware version the default
+noremap j gj
+noremap k gk
+noremap gj j
+noremap gk k
+" }}}
+
 " INDENTATION {{{
 vnoremap < <gv
 vnoremap > >gv
