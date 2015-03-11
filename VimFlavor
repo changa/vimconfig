@@ -77,7 +77,7 @@ flavor "scrooloose/nerdtree"
 # {{{ vim-endwise
 # endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 # https://github.com/tpope/vim-endwise
-flavor 'tpope/vim-endwise'
+flavor 'tpope/vim-endwise', branch: 'master'
 # }}}
 
 # {{{ vim-rails
