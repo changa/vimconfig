@@ -30,8 +30,8 @@ set autoindent
 set smartindent
 set smarttab
 set expandtab
-set shiftround
-set nojoinspaces
+set shiftround    " Indent to closest shiftwidth
+set nojoinspaces  " Use 1 space after "." when joining lines instead of 2
 set nofoldenable
 set tabstop=2
 set softtabstop=2
@@ -92,7 +92,7 @@ set statusline+=\
 set statusline+=0x%-8B\                      " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
 
-set laststatus=2
+set laststatus=2 " show a status line even if there's only one window
 " }}}
 
 " {{{ Whitespace clean-up
