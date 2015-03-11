@@ -31,6 +31,9 @@ map <C-Right> :tabnext<CR>
 
 " BUFFERS {{{
 
+" <leader><leader> switches back to previous buffer
+nnoremap <leader><leader> :b#<CR>
+
 " Close current buffer
 nnoremap <C-w><C-d> :bd<cr>
 
