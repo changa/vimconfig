@@ -1,4 +1,4 @@
-" vim: syntax=on : filetype=vim:
+" vim: syntax=on : filetype=vim foldmethod=marker foldenable :
 
 " set <Leader> to <space>
 let mapleader = " "
@@ -13,6 +13,7 @@ noremap j gj
 noremap k gk
 noremap gj j
 noremap gk k
+
 " }}}
 
 " INDENTATION {{{
@@ -90,7 +91,6 @@ cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 noremap! \fn <C-R>=expand("%")<CR>
 " }}}
 
-
 " {{{ Surroundings
 " Surround with parens, braces or brackets in visual mode (courtesty @moa3)
 vnoremap ( "zdi(<C-R>z)<ESC>
@@ -131,4 +131,8 @@ nnoremap <F5> :set invpaste paste?<CR>
 " No more 'Entering Ex mode'
 " see http://stackoverflow.com/questions/1269689/to-disable-entering-ex-mode-in-vim
 map Q <Nop>
+
+" Write as superuser
+cnoremap w!! %!sudo tee > /dev/null %
+
 " }}}
