@@ -3,6 +3,9 @@
 " set <Leader> to <space>
 let mapleader = " "
 
+" <C-c> sends back to normal mode from insert
+inoremap <C-c> <Esc>
+
 " Directional keys {{{
 
 " Make linewrap-aware version the default
