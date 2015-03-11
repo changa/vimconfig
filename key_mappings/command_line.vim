@@ -1,7 +1,7 @@
 " vim: syntax=on : filetype=vim:
 
-" set <Leader> to , (comma)
-let mapleader = ","
+" set <Leader> to <space>
+let mapleader = " "
 
 " Directional keys {{{
 
