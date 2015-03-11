@@ -5,10 +5,10 @@ all: install README.markdown
 install: ~/.vimrc ~/.gvimrc vim-flavor vimproc make_dirs
 
 ~/.vimrc:
-	ln -s `pwd`/vimrc ~/.vimrc
+	ln -s $(CURDIR)/vimrc ~/.vimrc
 
 ~/.gvimrc:
-	ln -s `pwd`/gvimrc ~/.gvimrc
+	ln -s $(CURDIR)/gvimrc ~/.gvimrc
 
 install-vim-flavor:
 	gem install vim-flavor --version '>= 1.1.3' --conservative
@@ -28,4 +28,4 @@ README.markdown: VimFlavor
 	./update_readme
 
 vimproc:
-	cd `pwd`/flavors/changa_vimproc.vim && make
+	cd $(CURDIR)/flavors/changa_vimproc.vim && make
