@@ -163,6 +163,26 @@ endfunction
 nnoremap <silent> <leader>cc :call g:ToggleColorColumn()<CR>
 " }}}
 
+" {{{ Save with Ctrl-S
+" Taken from http://vim.wikia.com/wiki/Map_Ctrl-S_to_save_current_or_new_files
+
+" If the current buffer has never been saved, it will have no name,
+" call the file browser to save it, otherwise just save it.
+command -nargs=0 -bar Update if &modified
+                           \|    if empty(bufname('%'))
+                           \|        browse confirm write
+                           \|    else
+                           \|        confirm write
+                           \|    endif
+                           \|endif
+
+" Save the current buffer with Ctrl-S in normal, insert or visual selection modes
+nnoremap <silent> <C-s> :<C-u>Update<CR>
+inoremap <C-s> <C-o>:Update<CR><CR>
+vmap <C-s> <Esc>:w<CR>gv
+
+" }}}
+
 if has("autocmd")
     " Save on focusLost
     autocmd FocusLost * :silent! wall
