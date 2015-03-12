@@ -62,7 +62,7 @@ set list
 autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn ctermbg=DarkGrey ctermfg=white guibg=#222
 
 if exists('+colorcolumn')
-  if exists('textwidth')
+  if &textwidth != ''
     autocmd BufRead,BufNewFile,BufWinEnter * set colorcolumn=+1
   else
     autocmd BufRead,BufNewFile,BufWinEnter * set colorcolumn=81
@@ -148,6 +148,19 @@ colorscheme Tomorrow-Night-Bright
 " {{{ Tags
 
 set tags+=~/.tags,.git/tags,tags
+" }}}
+
+" Markers {{{
+
+function! g:ToggleColorColumn()
+  if &colorcolumn != ''
+    setlocal colorcolumn&
+  else
+    setlocal colorcolumn=+1
+  endif
+endfunction
+
+nnoremap <silent> <leader>cc :call g:ToggleColorColumn()<CR>
 " }}}
 
 if has("autocmd")
