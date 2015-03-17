@@ -133,6 +133,6 @@ nnoremap <F5> :set invpaste paste?<CR>
 map Q <Nop>
 
 " Write as superuser
-cnoremap w!! %!sudo tee > /dev/null %
+command! -bar -nargs=0 W :silent exe "write !sudo tee % >/dev/null"|silent edit!
 
 " }}}
