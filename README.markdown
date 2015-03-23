@@ -46,6 +46,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [tlib_vim](https://github.com/tomtom/tlib_vim)
  * [unite.vim](https://github.com/changa/unite.vim)
  * [vim-addon-mw-utils](https://github.com/changa/vim-addon-mw-utils)
+ * [vim-airline](https://github.com/bling/vim-airline)
  * [vim-bundler](https://github.com/tpope/vim-bundler)
  * [vim-characterize](https://github.com/tpope/vim-characterize)
  * [vim-coffee-script](https://github.com/vim-scripts/vim-coffee-script)
