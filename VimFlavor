@@ -385,6 +385,7 @@ flavor "changa/neomru.vim"
 # kana/vim-smarttill
 # kana/vim-smartword
 #
+# https://github.com/szw/vim-ctrlspace
 # http://valloric.github.io/YouCompleteMe/
 # https://github.com/shougo/neocomplcache
 # https://github.com/Shougo/neosnippet
