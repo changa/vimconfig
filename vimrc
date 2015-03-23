@@ -23,6 +23,9 @@ set hidden     " Avoid asking to save before hiding
 " Don't try to highlight lines longer than 800 characters.
 set synmaxcol=800
 
+" No need for Balloon Evaluation
+set noballooneval
+
 "
 " Indentation
 "
