@@ -12,3 +12,5 @@ set clipboard=unnamed
 if filereadable(expand("~/.vim/gvimrc.local"))
   exec 'source ' . expand('~/.vim/gvimrc.local')
 endif
+
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10,DejaVu\ Sans\ Mono\ 10,
