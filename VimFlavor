@@ -52,6 +52,12 @@ flavor 'kana/vim-repeat'
 flavor "mbbill/undotree", branch: "master"
 # }}}
 
+
+# {{{ fontsize
+# convenient mappings for changing the font size in Gvim
+flavor "changa/vim-fontsize"
+#}}}
+
 # }}} /BASICS
 
 

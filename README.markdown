@@ -56,6 +56,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-elixir](https://github.com/elixir-lang/vim-elixir)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-flavored-markdown](https://github.com/changa/vim-flavored-markdown)
+ * [vim-fontsize](https://github.com/changa/vim-fontsize)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-git](https://github.com/tpope/vim-git)
  * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
