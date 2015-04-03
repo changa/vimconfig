@@ -26,6 +26,9 @@ set synmaxcol=800
 " No need for Balloon Evaluation
 set noballooneval
 
+" Right mouse button pops up a menu, if needed
+set mousemodel=popup
+
 "
 " Indentation
 "
