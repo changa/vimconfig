@@ -182,6 +182,9 @@ flavor 'ditaa'
 # Rust
 flavor 'rust-lang/rust.vim', branch: 'master'
 
+# TOML
+flavor 'cespare/vim-toml', branch: 'master'
+
 # }}} /LANGUAGES
 
 
