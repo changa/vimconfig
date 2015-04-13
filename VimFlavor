@@ -179,6 +179,9 @@ flavor "luochen1990/rainbow"
 
 flavor 'ditaa'
 
+# Rust
+flavor 'rust-lang/rust.vim', branch: 'master'
+
 # }}} /LANGUAGES
 
 
