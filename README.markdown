@@ -64,7 +64,6 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-grex](https://github.com/kana/vim-grex)
  * [vim-haml](https://github.com/changa/vim-haml)
  * [vim-jade](https://github.com/changa/vim-jade)
- * [vim-javascript](https://github.com/vim-scripts/vim-javascript)
  * [vim-json](https://github.com/elzr/vim-json)
  * [vim-markdown](https://github.com/changa/vim-markdown)
  * [vim-metarw-git](https://github.com/kana/vim-metarw-git)
@@ -90,3 +89,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
  * [vimproc.vim](https://github.com/changa/vimproc.vim)
  * [vimroom](https://github.com/mikewest/vimroom)
+ * [yajs.vim](https://github.com/othree/yajs.vim)mikewest/vimroom)

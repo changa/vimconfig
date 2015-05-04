@@ -151,7 +151,7 @@ flavor "changa/vim-flavored-markdown"
 flavor "changa/markdown-preview.vim"
 
 # javascript
-flavor 'vim-javascript'
+flavor 'othree/yajs.vim', branch: 'master'
 
 # json
 flavor 'elzr/vim-json', branch: 'master'
