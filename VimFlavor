@@ -224,6 +224,8 @@ flavor "airblade/vim-gitgutter", branch: 'master'
 
 # {{{ COMPLETION
 
+flavor "SyntaxComplete"
+
 # {{{ supertab
 # https://github.com/ervandew/supertab
 flavor "ervandew/supertab"

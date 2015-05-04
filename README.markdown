@@ -25,6 +25,7 @@ My little own vim configuration. Use and fork as you see fit.
 
 ## Plugins:
 
+ * [SyntaxComplete](https://github.com/vim-scripts/SyntaxComplete)
  * [ack.vim](https://github.com/vim-scripts/ack.vim)
  * [ag.vim](https://github.com/vim-scripts/ag.vim)
  * [ditaa](https://github.com/vim-scripts/ditaa)
@@ -89,4 +90,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
  * [vimproc.vim](https://github.com/changa/vimproc.vim)
  * [vimroom](https://github.com/mikewest/vimroom)
- * [yajs.vim](https://github.com/othree/yajs.vim)mikewest/vimroom)
+ * [yajs.vim](https://github.com/othree/yajs.vim)
