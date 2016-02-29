@@ -255,6 +255,9 @@ flavor "kana/vim-textobj-line"
 # Vim plugin: Text objects for indented blocks of lines
 flavor "kana/vim-textobj-indent"
 
+# A custom text object for selecting ruby blocks.
+flavor "nelstrom/vim-textobj-rubyblock"
+
 # }}}
 
 
