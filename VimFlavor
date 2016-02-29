@@ -185,6 +185,9 @@ flavor 'rust-lang/rust.vim', branch: 'master'
 # TOML
 flavor 'cespare/vim-toml', branch: 'master'
 
+# Ansible
+flavor "pearofducks/ansible-vim"
+
 # }}} /LANGUAGES
 
 
