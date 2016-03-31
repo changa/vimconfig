@@ -170,6 +170,8 @@ flavor "changa/psql.vim"
 
 # Elixir
 flavor "elixir-lang/vim-elixir", branch: 'master'
+flavor "slashmili/alchemist.vim", branch: 'master'
+flavor "powerman/vim-plugin-AnsiEsc", branch: 'master'
 
 # Elm
 flavor "lambdatoast/elm.vim", branch: 'master'
