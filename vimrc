@@ -24,7 +24,9 @@ set hidden     " Avoid asking to save before hiding
 set synmaxcol=800
 
 " No need for Balloon Evaluation
-set noballooneval
+if exists('+noballooneval')
+  set noballooneval
+endif
 
 " Right mouse button pops up a menu, if needed
 set mousemodel=popup
