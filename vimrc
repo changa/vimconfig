@@ -88,7 +88,7 @@ set listchars=nbsp:·,tab:»–,trail:·
 set list
 
 " Color long lines limit
-autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn ctermbg=DarkGrey ctermfg=white guibg=#222
+autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn ctermbg=DarkGrey ctermfg=white
 
 if exists('+colorcolumn')
   if &textwidth != ''
@@ -153,9 +153,7 @@ endfunction
 " }}}
 
 " {{{ Load key mappings
-
 exec 'source ' . expand("~/.vim/key_mappings/command_line.vim")
-exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
 " }}}
 
 " {{{ Skeletons

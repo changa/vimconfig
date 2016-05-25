@@ -6,6 +6,13 @@ set guioptions-=m
 " Highlight wrong spelling
 highlight SpellBad term=underline gui=undercurl guisp=Orange
 
+" Color long lines limit
+autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn guibg=#222
+
+" {{{ Load key mappings
+exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
+" }}}
+
 " Use system clipboard
 set clipboard=unnamed
 
