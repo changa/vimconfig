@@ -45,12 +45,33 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
-"
-" Soft/Hard Wrapping
-"
-set wrap
+" Soft/Hard Wrapping {{{
+
+" Soft wrapping
+" set wrap
+
+" Hard wrapping
 set textwidth=79
-set formatoptions=qrn1j
+
+" Allow formatting of comments with 'gq'
+set formatoptions=q
+
+" Automatically insert the current comment leader after hitting <Enter> in
+" Insert mode
+set formatoptions +=r
+
+" When formatting text, recognize numbered lists.  This actually uses
+" 'formatlistpat'.
+set formatoptions +=n
+
+" Don't break a line after a one-letter word.  It's broken before it instead
+" (if possible)
+set formatoptions +=1
+
+" Where it makes sense, remove a comment leader when joining lines.
+set formatoptions +=j
+
+" }}}
 
 "
 " History and backup
