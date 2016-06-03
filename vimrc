@@ -76,7 +76,10 @@ set formatoptions +=j
 "
 " History and backup
 "
-set viminfo='10,:20,\"100,%,n~/.viminfo
+if !has('nvim')
+  set viminfo='10,:20,\"100,%,n~/.viminfo
+endif
+
 set history=1000
 set nobackup
 set nowritebackup
@@ -227,7 +230,10 @@ let g:MarkdownPreviewTMP = expand("~/.vim/flavors/changa_markdown-preview.vim/tm
 let g:MarkdownPreviewDefaultStyles = expand("~/.vim/flavors/changa_markdown-preview.vim/stylesheets/")
 
 " Encryption
-set cryptmethod=blowfish
+
+if has("cryptv")
+  set cryptmethod=blowfish
+endif
 " }}}
 
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
