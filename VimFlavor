@@ -366,6 +366,13 @@ flavor "changa/vim-signature"
 flavor "bling/vim-airline"
 # }}}
 
+
+# {{{ gundo.vim
+# Visualize your Vim undo tree
+# Requires python
+flavor "sjl/gundo.vim"
+# }}}
+
 # }}} /MISC
 
 
