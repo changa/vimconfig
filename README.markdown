@@ -54,6 +54,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-airline](https://github.com/bling/vim-airline)
  * [vim-bundler](https://github.com/tpope/vim-bundler)
  * [vim-characterize](https://github.com/tpope/vim-characterize)
+ * [vim-closetag](https://github.com/alvan/vim-closetag)
  * [vim-coffee-script](https://github.com/vim-scripts/vim-coffee-script)
  * [vim-css-color](https://github.com/changa/vim-css-color)
  * [vim-css3-syntax](https://github.com/hail2u/vim-css3-syntax)

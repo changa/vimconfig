@@ -333,6 +333,11 @@ flavor "tpope/vim-unimpaired"
 flavor "kana/vim-smartinput"
 # }}}
 
+# {{{ vim-closetag
+# Auto close (X)HTML tags
+flavor "alvan/vim-closetag", branch: "master"
+# }}}
+
 # {{{ vim-grex
 # *grex* is a Vim plugin to provide useful commands to operate on
 # lines matched to the last search pattern
