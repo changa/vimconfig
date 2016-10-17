@@ -401,12 +401,12 @@ flavor "Lokaltog/vim-easymotion"
 
 # {{{ SEARCH
 
-### {{ unite and vimproc
 flavor "changa/vimproc.vim"
-flavor "changa/unite.vim"
-flavor "changa/neomru.vim"
-# See http://www.codeography.com/2013/06/17/replacing-all-the-things-with-unite-vim.html
-# See http://bling.github.io//blog/2013/06/02/unite-dot-vim-the-plugin-you-didnt-know-you-need/#comment-919769841
+
+### {{ unite and vimproc
+# see https://medium.com/@crashybang/supercharge-vim-with-fzf-and-ripgrep-d4661fc853d2#.y2pz1mipy
+flavor "junegunn/fzf"
+flavor "junegunn/fzf.vim", branch: "master"
 # }}
 #
 # }}}
