@@ -235,6 +235,11 @@ if has("cryptv")
 endif
 " }}}
 
+
+if executable("rg")
+  set grepprg=rg\ --vimgrep
+endif
+
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 if filereadable(expand("~/.vim/vimrc.local"))
