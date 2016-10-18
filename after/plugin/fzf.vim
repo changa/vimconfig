@@ -13,4 +13,8 @@
 
 let g:fzf_launcher = 'urxvt -e sh -c %s'
 
+if executable("highlight")
+  let g:fzf_files_options = '--preview "(highlight -O ansi {-1} || cat {}) 2> /dev/null | head -'.&lines.'"'
+endif
+
 command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
