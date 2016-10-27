@@ -86,6 +86,7 @@ noremap <F10> :set cursorcolumn!<CR>
 " to the path of the active buffer, just as though we had typed %:h <Tab>
 " taken from Practical Vim
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+cnoremap <expr> $$ getcmdtype() == ':' ? expand('%:f') : '$$'
 
 " Set a binding to insert the current filename
 noremap! \fn <C-R>=expand("%")<CR>
