@@ -1,1 +1,1 @@
-nnoremap <F2> :EasyBuffer<CR>
+nnoremap <F2> :EasyBufferToggle<CR>
