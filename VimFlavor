@@ -71,6 +71,9 @@ flavor "easybuffer.vim"
 # }}}
 
 flavor "scrooloose/nerdtree"
+
+# Close all buffers but current one
+flavor "BufOnly.vim"
 # }}}
 
 
