@@ -36,7 +36,6 @@ My little own vim configuration. Use and fork as you see fit.
  * [elm.vim](https://github.com/lambdatoast/elm.vim)
  * [fzf.vim](https://github.com/junegunn/fzf.vim)
  * [fzf](https://github.com/junegunn/fzf)
- * [gundo.vim](https://github.com/sjl/gundo.vim)
  * [markdown-preview.vim](https://github.com/changa/markdown-preview.vim)
  * [molokai](https://github.com/vim-scripts/molokai)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
@@ -97,4 +96,4 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-vividchalk](https://github.com/tpope/vim-vividchalk)
  * [vimproc.vim](https://github.com/changa/vimproc.vim)
  * [vimroom](https://github.com/mikewest/vimroom)
- * [yajs.vim](https://github.com/othree/yajs.vim)
+ * [yajs.vim](https://github.com/othree/yajs.vim) * [yajs.vim](https://github.com/othree/yajs.vim)
