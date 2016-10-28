@@ -1,2 +1,1 @@
-colorscheme molokai
 set spell
