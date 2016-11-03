@@ -319,7 +319,7 @@ flavor "changa/tabular"
 # }}}
 
 # {{{ css-color
-flavor "changa/vim-css-color"
+flavor "ap/vim-css-color", branch: "master"
 # }}}
 
 # {{{ https://github.com/tpope/vim-unimpaired
