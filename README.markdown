@@ -28,7 +28,6 @@ My little own vim configuration. Use and fork as you see fit.
  * [BufOnly.vim](https://github.com/vim-scripts/BufOnly.vim)
  * [SyntaxComplete](https://github.com/vim-scripts/SyntaxComplete)
  * [ack.vim](https://github.com/vim-scripts/ack.vim)
- * [ag.vim](https://github.com/vim-scripts/ag.vim)
  * [alchemist.vim](https://github.com/slashmili/alchemist.vim)
  * [ansible-vim](https://github.com/pearofducks/ansible-vim)
  * [ditaa](https://github.com/vim-scripts/ditaa)
