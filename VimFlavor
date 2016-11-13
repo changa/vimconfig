@@ -79,6 +79,12 @@ flavor "BufOnly.vim"
 
 # {{{ LANGUAGES & SYNTAXES
 
+# {{{ vim-ployglot
+# A collection of language packs for Vim.
+# see https://github.com/sheerun/vim-polyglot
+flavor "sheerun/vim-polyglot"
+# }}}
+
 # {{{ RUBY-RELATED
 
 # {{{ vim-endwise
@@ -132,17 +138,8 @@ flavor "tpope/vim-rbenv"
 
 # }}} /RUBY-RELATED
 
-# slim
-flavor "changa/vim-slim"
-
-# haml, sass and scss
-flavor 'changa/vim-haml'
-
 # css3
 flavor 'hail2u/vim-css3-syntax'
-
-# markdown
-flavor 'changa/vim-markdown'
 
 # multimarkdown
 flavor 'changa/vim-multimarkdown'
@@ -153,57 +150,19 @@ flavor "changa/vim-flavored-markdown"
 # markdown-preview
 flavor "changa/markdown-preview.vim"
 
-# javascript
-flavor 'othree/yajs.vim', branch: 'master'
-
-# json
-flavor 'elzr/vim-json', branch: 'master'
-
-# coffeescript
-flavor 'vim-coffee-script'
-
-# jade
-flavor 'changa/vim-jade'
-
-# nginx
-flavor 'nginx.vim'
-
-# Postgres
-flavor "changa/psql.vim"
-
 # Elixir
-flavor "elixir-lang/vim-elixir", branch: 'master'
 flavor "slashmili/alchemist.vim", branch: 'master'
 flavor "powerman/vim-plugin-AnsiEsc", branch: 'master'
-
-# Elm
-flavor "lambdatoast/elm.vim", branch: 'master'
 
 # Lisps
 flavor "luochen1990/rainbow"
 
 flavor 'ditaa'
 
-# Rust
-flavor 'rust-lang/rust.vim', branch: 'master'
-
-# TOML
-flavor 'cespare/vim-toml', branch: 'master'
-
-# Ansible
-flavor "pearofducks/ansible-vim"
-
 # }}} /LANGUAGES
 
 
 # {{{ GIT
-
-# {{{ vim-git
-#
-# syntax, indent, and filetype plugin files for git, gitcommit, gitconfig,
-# gitrebase, and gitsendemail.
-flavor 'tpope/vim-git'
-# }}}
 
 # {{{ vim-fugitive
 #

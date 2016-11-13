@@ -1,2 +1,2 @@
-au BufRead,BufNewFile *.psql    setfiletype psql
-au BufRead,BufNewFile *.psqlrc  setfiletype psql
+au BufRead,BufNewFile *.psql    setfiletype pgsql
+au BufRead,BufNewFile *.psqlrc  setfiletype pgsql
