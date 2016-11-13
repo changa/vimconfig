@@ -7,7 +7,7 @@ set guioptions-=m
 highlight SpellBad term=underline gui=undercurl guisp=Orange
 
 " Color long lines limit
-autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn guibg=#222
+autocmd BufRead,BufNewFile,BufWinEnter * highlight ColorColumn guibg=#222222
 
 " {{{ Load key mappings
 exec 'source ' . expand("~/.vim/key_mappings/gui.vim")
