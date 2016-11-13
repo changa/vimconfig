@@ -335,6 +335,11 @@ flavor "ludovicchabant/vim-gutentags", branch: "master"
 #
 # }}}
 
+# {{{ Neomake
+flavor "neomake/neomake", branch: "master"
+# }}}
+
+
 # {{{ SYNTAX CHECKING
 
 # {{{ Syntastic
