@@ -138,6 +138,14 @@ flavor "tpope/vim-rbenv"
 
 # }}} /RUBY-RELATED
 
+# {{{ Phoenix
+# Vim-Rails equivalent for Phoenix
+# see https://bitboxer.de/2016/11/13/vim-for-elixir/
+flavor "c-brenn/phoenix.vim", branch: "master"
+flavor "tpope/vim-projectionist", branch: "master"
+# }}}
+
+
 # css3
 flavor 'hail2u/vim-css3-syntax'
 
