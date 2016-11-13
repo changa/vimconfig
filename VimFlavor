@@ -247,6 +247,11 @@ flavor 'tpope/vim-vividchalk'
 
 # {{{ MISC
 
+# {{{
+# open files with vim file:123
+flavor "bogado/file-line"
+# }}}
+
 # {{{ TComment
 # :TComment works like a toggle, i.e., it will comment out text that
 # contains uncommented lines, and it will uncomment already
