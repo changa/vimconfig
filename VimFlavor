@@ -330,6 +330,10 @@ flavor "bling/vim-airline"
 
 # }}} /MISC
 
+# {{{ Ctags
+flavor "ludovicchabant/vim-gutentags", branch: "master"
+#
+# }}}
 
 # {{{ SYNTAX CHECKING
 
