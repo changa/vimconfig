@@ -3,9 +3,9 @@
 set nocompatible
 filetype off
 
-" Load flavors from VimFlavor file
-" see https://github.com/kana/vim-flavor
-runtime flavors/bootstrap.vim
+" Source plug-ins with vim-plug
+" see https://github.com/junegunn/vim-plug
+runtime plugs.vim
 
 filetype on
 

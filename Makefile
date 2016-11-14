@@ -1,8 +1,6 @@
-.PHONY: vimproc
-
 all: install README.markdown
 
-install: ~/.vimrc ~/.gvimrc vim-flavor vimproc make_dirs
+install: ~/.vimrc ~/.gvimrc restore-snapshot make_dirs
 
 ~/.vimrc:
 	ln -s $(CURDIR)/vimrc ~/.vimrc
@@ -10,11 +8,11 @@ install: ~/.vimrc ~/.gvimrc vim-flavor vimproc make_dirs
 ~/.gvimrc:
 	ln -s $(CURDIR)/gvimrc ~/.gvimrc
 
-install-vim-flavor:
-	gem install vim-flavor --version '>= 1.1.3' --conservative
+save-snapshot:
+	vim -c "PlugSnapshot! snapshot.vim" -c "qall"
 
-vim-flavor: install-vim-flavor
-	vim-flavor install
+restore-snapshot:
+	vim -S snapshot.vim -c "qall"
 
 configure_vim_sensible: make_dirs
 
@@ -24,8 +22,5 @@ make_dirs:
 		~/.cache/vim/backup \
 		~/.cache/vim/undo \
 
-README.markdown: VimFlavor
+README.markdown: plugs.vim
 	./update_readme
-
-vimproc:
-	cd $(CURDIR)/flavors/changa_vimproc.vim && make

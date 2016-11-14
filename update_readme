@@ -4,9 +4,9 @@
 
 # Crude hack to update the end of the README file with the list of plugins
 
-plugins = File.open(File.expand_path('./VimFlavor')).readlines.map do |line|
-  if match = %r{^\A*flavor\s+(?<quote>["'])(?<flavor_name>.*?)\k<quote>}.match(line)
-    repo, user = match[:flavor_name].split('/').reverse
+plugins = File.open(File.expand_path('./plugs.vim')).readlines.map do |line|
+  if match = %r{^\A*Plug\s+(?<quote>["'])(?<plug_name>.*?)\k<quote>}.match(line)
+    repo, user = match[:plug_name].split('/').reverse
     user ||= "vim-scripts"
 
     " * [#{repo}](https://github.com/#{user}/#{repo})"

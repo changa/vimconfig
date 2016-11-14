@@ -9,3 +9,6 @@
 
 # Ignore local dictionaries
 /spell
+
+# Git plug installation dir
+/plugged
