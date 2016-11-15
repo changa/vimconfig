@@ -12,3 +12,6 @@
 
 # Git plug installation dir
 /plugged
+
+# Neovim config is aliased
+init.vim

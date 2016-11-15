@@ -1,12 +1,19 @@
 all: install README.markdown
 
-install: ~/.vimrc ~/.gvimrc restore-snapshot make_dirs
+install: ~/.vimrc ~/.gvimrc init.vim restore-snapshot make_dirs
 
 ~/.vimrc:
 	ln -s $(CURDIR)/vimrc ~/.vimrc
 
 ~/.gvimrc:
 	ln -s $(CURDIR)/gvimrc ~/.gvimrc
+
+~/.config/nvim:
+	mkdir -p ~/.config
+	ln -sf $(CURDIR) $@
+
+init.vim: vimrc ~/.config/nvim
+	ln -sf $< $@
 
 save-snapshot:
 	vim -c "PlugSnapshot! snapshot.vim" -c "qall"
