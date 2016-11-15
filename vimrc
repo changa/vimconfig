@@ -240,6 +240,11 @@ if executable("rg")
   set grepprg=rg\ --vimgrep
 endif
 
+
+if has("nvim")
+  exec 'source ' . expand("~/.vim/neovim.vim")
+endif
+
 " {{{ FOOTER - LOCAL CUSTOMIZATIONS
 
 if filereadable(expand("~/.vim/vimrc.local"))
