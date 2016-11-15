@@ -172,8 +172,6 @@ augroup END
 
 " }}}
 
-colorscheme Tomorrow-Night-Bright
-
 " {{{ Tags
 
 set tags+=~/.tags,.git/tags,tags
@@ -240,6 +238,12 @@ if executable("rg")
   set grepprg=rg\ --vimgrep
 endif
 
+" Colors {{{
+
+" colorscheme gruvbox
+colorscheme Tomorrow-Night-Bright
+set background=dark
+" }}}
 
 if has("nvim")
   exec 'source ' . expand("~/.vim/neovim.vim")
