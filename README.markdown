@@ -42,6 +42,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [molokai](https://github.com/vim-scripts/molokai)
  * [monokai](https://github.com/lsdr/monokai)
  * [neodark.vim](https://github.com/KeitaNakamura/neodark.vim)
+ * [neomake](https://github.com/neomake/neomake)
  * [neovim-colors-solarized-truecolor-only](https://github.com/frankier/neovim-colors-solarized-truecolor-only)
  * [nerdtree](https://github.com/scrooloose/nerdtree)
  * [phoenix.vim](https://github.com/c-brenn/phoenix.vim)

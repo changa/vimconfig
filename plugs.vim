@@ -367,9 +367,7 @@ Plug 'ludovicchabant/vim-gutentags'
 
 
 " {{{ Neomake
-if has("nvim")
-  Plug 'neomake/neomake'
-endif
+Plug 'neomake/neomake'
 " }}}
 
 
