@@ -151,14 +151,8 @@ Plug 'tpope/vim-projectionist'
 " css3
 Plug 'hail2u/vim-css3-syntax'
 
-" multimarkdown
-Plug 'changa/vim-multimarkdown'
-
-" vim-Pluged-markdown
-Plug 'changa/vim-flavored-markdown'
-
-" markdown-preview
-Plug 'changa/markdown-preview.vim'
+" markdown
+Plug 'rhysd/vim-gfm-syntax'
 
 " Elixir
 Plug 'slashmili/alchemist.vim'
