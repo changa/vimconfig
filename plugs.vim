@@ -319,7 +319,7 @@ Plug 'kana/vim-grex'
 
 " {{{ obsession
 " obsession.vim: continuously updated session files
-Plug 'changa/vim-obsession'
+Plug 'tpope/vim-obsession'
 " }}}
 
 " {{{ vimroom
