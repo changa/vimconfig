@@ -335,8 +335,7 @@ Plug 'nelstrom/vim-visual-star-search'
 
 " {{{ vim-signature
 " Plugin to toggle, display and navigate marks
-" see https://github.com/changa/vim-signature
-Plug 'changa/vim-signature'
+Plug 'kshenoy/vim-signature'
 " }}}
 
 " {{{ vim-airline
