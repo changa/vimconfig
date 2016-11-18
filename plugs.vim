@@ -57,7 +57,7 @@ Plug 'mbbill/undotree'
 
 " {{{ fontsize
 " convenient mappings for changing the font size in Gvim
-Plug 'changa/vim-fontsize'
+Plug 'drmikehenry/vim-fontsize'
 "}}}
 
 " }}} /BASICS

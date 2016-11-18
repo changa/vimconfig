@@ -64,7 +64,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
  * [vim-endwise](https://github.com/tpope/vim-endwise)
  * [vim-evolution](https://github.com/petelewis/vim-evolution)
- * [vim-fontsize](https://github.com/changa/vim-fontsize)
+ * [vim-fontsize](https://github.com/drmikehenry/vim-fontsize)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
  * [vim-gfm-syntax](https://github.com/rhysd/vim-gfm-syntax)
  * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
