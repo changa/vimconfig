@@ -19,7 +19,7 @@ save-snapshot:
 	vim -c "PlugSnapshot! snapshot.vim" -c "qall"
 
 restore-snapshot:
-	vim -S snapshot.vim -c "qall"
+	vim -c "PlugClean!" -S snapshot.vim -c "qall"
 
 configure_vim_sensible: make_dirs
 
