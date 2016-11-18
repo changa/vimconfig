@@ -241,7 +241,7 @@ endif
 " Colors {{{
 
 " colorscheme gruvbox
-colorscheme Tomorrow-Night-Bright
+colorscheme brogrammer
 set background=dark
 " }}}
 
