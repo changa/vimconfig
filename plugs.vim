@@ -201,12 +201,6 @@ Plug 'SyntaxComplete'
 " https://github.com/ervandew/supertab
 Plug 'ervandew/supertab'
 
-" Snipmate and friends
-Plug 'changa/vim-addon-mw-utils'
-Plug 'tomtom/tlib_vim'
-Plug 'garbas/vim-snipmate'
-Plug 'changa/vim-snippets'
-
 " }}}
 
 " }}}
