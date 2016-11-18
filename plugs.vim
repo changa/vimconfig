@@ -285,7 +285,7 @@ Plug 'ack.vim'
 " {{{ tabular
 " https://github.com/godlygeek/tabular.git
 " Technically, we'll use my fork since upstream doesnt tag ;_;
-Plug 'changa/tabular'
+Plug 'godlygeek/tabular'
 " }}}
 
 " {{{ css-color
