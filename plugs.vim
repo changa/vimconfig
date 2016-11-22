@@ -360,7 +360,6 @@ Plug 'ludovicchabant/vim-gutentags'
 "
 " }}}
 
-
 " {{{ Neomake
 Plug 'neomake/neomake'
 " }}}
@@ -370,6 +369,16 @@ Plug 'neomake/neomake'
 " {{{ Syntastic
 " https://github.com/scrooloose/syntastic
 Plug 'scrooloose/syntastic'
+" }}}
+
+" {{{ HCL
+" Vim syntax for HCL
+" https://github.com/b4b4r07/vim-hcl
+Plug 'b4b4r07/vim-hcl'
+
+" Vim plugin to format Hashicorp Configuration Language (HCL) files
+" https://github.com/fatih/vim-hclfmt
+Plug 'fatih/vim-hclfmt'
 " }}}
 
 " }}}

@@ -70,6 +70,8 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
  * [vim-grex](https://github.com/kana/vim-grex)
  * [vim-gutentags](https://github.com/ludovicchabant/vim-gutentags)
+ * [vim-hcl](https://github.com/b4b4r07/vim-hcl)
+ * [vim-hclfmt](https://github.com/fatih/vim-hclfmt)
  * [vim-luna](https://github.com/notpratheek/vim-luna)
  * [vim-metarw-git](https://github.com/kana/vim-metarw-git)
  * [vim-obsession](https://github.com/tpope/vim-obsession)
