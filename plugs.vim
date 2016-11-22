@@ -344,6 +344,13 @@ Plug 'vim-airline/vim-airline'
 let g:airline_powerline_fonts=1
 " }}}
 
+" {{{ easymotion
+" EasyMotion provides a much simpler way to use some motions in vim. It takes
+" the <number> out of <number>w or <number>f{char} by highlighting all possible
+" choices and allowing you to press one key to jump directly to the target.
+" https://github.com/Lokaltog/vim-easymotion
+Plug 'Lokaltog/vim-easymotion'
+" }}}
 
 " }}} /MISC
 
@@ -358,7 +365,6 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'neomake/neomake'
 " }}}
 
-
 " {{{ SYNTAX CHECKING
 
 " {{{ Syntastic
@@ -366,17 +372,7 @@ Plug 'neomake/neomake'
 Plug 'scrooloose/syntastic'
 " }}}
 
-" {{{ easymotion
-" EasyMotion provides a much simpler way to use some motions in vim. It takes
-" the <number> out of <number>w or <number>f{char} by highlighting all possible
-" choices and allowing you to press one key to jump directly to the target.
-" https://github.com/Lokaltog/vim-easymotion
-Plug 'Lokaltog/vim-easymotion'
 " }}}
-
-
-" }}}
-
 
 " {{{ SEARCH
 
