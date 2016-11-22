@@ -53,6 +53,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [tabular](https://github.com/godlygeek/tabular)
  * [undotree](https://github.com/mbbill/undotree)
  * [vim-airline](https://github.com/vim-airline/vim-airline)
+ * [vim-autoformat](https://github.com/Chiel92/vim-autoformat)
  * [vim-brogrammer-theme](https://github.com/marciomazza/vim-brogrammer-theme)
  * [vim-bundler](https://github.com/tpope/vim-bundler)
  * [vim-characterize](https://github.com/tpope/vim-characterize)

@@ -383,6 +383,13 @@ Plug 'fatih/vim-hclfmt'
 
 " }}}
 
+" {{{ Code formatting
+" Provide easy code formatting in Vim by integrating existing code formatters.
+" https://github.com/Chiel92/vim-autoformat
+Plug 'Chiel92/vim-autoformat'
+" }}}
+
+
 " {{{ SEARCH
 
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
