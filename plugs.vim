@@ -92,7 +92,7 @@ Plug 'sheerun/vim-polyglot'
 " {{{ vim-endwise
 " endwise.vim: wisely add "end" in ruby, endfunction/endif/more in vim script, etc
 " https://github.com/tpope/vim-endwise
-Plug 'tpope/vim-endwise'
+Plug 'longthanhtran/vim-endwise'
 " }}}
 
 " {{{ vim-rails

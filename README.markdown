@@ -63,7 +63,7 @@ My little own vim configuration. Use and fork as you see fit.
  * [vim-desert-warm-256](https://github.com/rainux/vim-desert-warm-256)
  * [vim-desert256](https://github.com/brafales/vim-desert256)
  * [vim-easymotion](https://github.com/Lokaltog/vim-easymotion)
- * [vim-endwise](https://github.com/tpope/vim-endwise)
+ * [vim-endwise](https://github.com/longthanhtran/vim-endwise)
  * [vim-evolution](https://github.com/petelewis/vim-evolution)
  * [vim-fontsize](https://github.com/drmikehenry/vim-fontsize)
  * [vim-fugitive](https://github.com/tpope/vim-fugitive)
