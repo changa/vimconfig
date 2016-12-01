@@ -115,11 +115,13 @@ set statusline+=%{fugitive#statusline()}     " show git status
 set statusline+=%=                           " right align
 
 " Syntastic status line
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+if !has("nvim")
+  set statusline+=%#warningmsg#
+  set statusline+=%{SyntasticStatuslineFlag()}
+  set statusline+=%*
 
-set statusline+=\
+  set statusline+=\
+endif
 
 set statusline+=0x%-8B\                      " current char
 set statusline+=%-14.(%l,%c%V%)\ %<%P        " offset
