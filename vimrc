@@ -114,6 +114,9 @@ set statusline+=%{&fileformat}]              " file format
 set statusline+=%{fugitive#statusline()}     " show git status
 set statusline+=%=                           " right align
 
+" Gutentags
+set statusline+=%{gutentags#statusline()}
+
 " Syntastic status line
 if !has("nvim")
   set statusline+=%#warningmsg#
