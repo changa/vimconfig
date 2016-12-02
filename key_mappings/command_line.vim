@@ -6,6 +6,13 @@ let mapleader = " "
 " <C-c> sends back to normal mode from insert
 inoremap <C-c> <Esc>
 
+" Control-L clears search highligtig
+" Use <C-L> to clear the search highlighting
+" (taken from vim-sensible)
+if maparg('<C-L>', 'n') ==# ''
+  nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
+endif
+"
 " Directional keys {{{
 
 " Make linewrap-aware version the default

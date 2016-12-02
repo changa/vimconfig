@@ -23,6 +23,11 @@ call plug#begin()
 "   amenities.
 "
 " https://github.com/tpope/vim-sensible
+
+if has("nvim")
+  " Prevent sensible from being loaded with neovim
+  let g:loaded_sensible = 1
+endif
 Plug 'tpope/vim-sensible'
 " }}}
 
