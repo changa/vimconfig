@@ -6,14 +6,9 @@ My little own vim configuration. Use and fork as you see fit.
 
 ## Dependencies
 
-  * mandatory
-    * [Ruby](http://www.ruby-lang.org/)
-    * the awesome [vim-flavor](https://github.com/kana/vim-flavor) ruby gem to
-      manage vim dependencies.
-
-  * optional
-    * [the platinum searcher](https://github.com/monochromegane/the_platinum_searcher)
-    * [the silver searcher](https://github.com/ggreer/the_silver_searcher)
+  * for [YouCompleteMe](http://valloric.github.io/YouCompleteMe/)
+    * `cmake`
+    * if using neovim install the Python neovim module (`pip install neovim`)
 
 ## Usage
 

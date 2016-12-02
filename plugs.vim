@@ -196,10 +196,7 @@ Plug 'airblade/vim-gitgutter'
 " {{{ COMPLETION
 
 Plug 'SyntaxComplete'
-
-" {{{ supertab
-" https://github.com/ervandew/supertab
-Plug 'ervandew/supertab'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 
 " }}}
 
@@ -410,8 +407,6 @@ Plug 'junegunn/fzf.vim'
 " kana/vim-smartword
 "
 " https://github.com/szw/vim-ctrlspace
-" http://valloric.github.io/YouCompleteMe/
-" https://github.com/shougo/neocomplcache
 " https://github.com/Shougo/neosnippet
 " http://majutsushi.github.com/tagbar/
 " https://github.com/xolox/vim-easytags
