@@ -1,14 +1,14 @@
 # My vim config
 
-
 My little own vim configuration. Use and fork as you see fit.
-
 
 ## Dependencies
 
   * for [YouCompleteMe](http://valloric.github.io/YouCompleteMe/)
     * `cmake`
     * if using neovim install the Python neovim module (`pip install neovim`)
+    * if you use pyenv you must add this line `export PYTHON_CONFIGURE_OPTS="--enable-shared"` in your `.bashrc` before install your global python version
+  * `ctags`
 
 ## Usage
 
