@@ -28,8 +28,11 @@ if exists('+noballooneval')
   set noballooneval
 endif
 
-" Right mouse button pops up a menu, if needed
-set mousemodel=popup
+if has('mouse')
+  set mouse=a
+  " Right mouse button pops up a menu, if needed
+  set mousemodel=popup
+endif
 
 "
 " Indentation
