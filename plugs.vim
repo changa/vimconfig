@@ -356,6 +356,10 @@ let g:airline_powerline_fonts=1
 Plug 'Lokaltog/vim-easymotion'
 " }}}
 
+" {{{ emojis
+Plug 'junegunn/vim-emoji'
+" }}}
+
 " }}} /MISC
 
 
