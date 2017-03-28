@@ -150,9 +150,7 @@ Plug 'tpope/vim-rbenv'
 " see https://bitboxer.de/2016/11/13/vim-for-elixir/
 Plug 'tpope/vim-projectionist'
 
-" Use nhooyr fork until upstream (c-brenn) catches up w/ projectionist changes
-Plug 'nhooyr/phoenix.vim'
-" Plug 'c-brenn/phoenix.vim'
+Plug 'c-brenn/phoenix.vim'
 
 " }}}
 
