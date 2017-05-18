@@ -218,6 +218,16 @@ vmap <C-s> <Esc>:w<CR>gv
 
 " }}}
 
+
+" {{{ Splits
+" Tips taken from https://robots.thoughtbot.com/vim-splits-move-faster-and-more-naturally#easier-split-navigation
+"
+" More natural split opening
+" Open new split panes to right and bottom, which feels more natural than Vim’s default:
+set splitbelow
+set splitright
+" }}}
+
 if has("autocmd")
     " Save on focusLost
     autocmd FocusLost * :silent! wall
