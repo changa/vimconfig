@@ -252,6 +252,18 @@ endif
 " }}}
 
 
+" Neovim terminal mode
+if has('nvim')
+  " Escape to switch back to normal mode
+  tnoremap <Esc> <C-\><C-n>
+  " Control-V + Escape to insert Escape
+  tnoremap <C-v><Esc> <Esc>
+
+  " Highlight terminal mode cursor
+  highlight! link TermCursor Cursor
+  highlight! TermCursorNC guibg=red guifg=white ctermbg=1 ctermfg=15
+endif
+
 if executable("rg")
   set grepprg=rg\ --vimgrep
 endif
