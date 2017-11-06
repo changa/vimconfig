@@ -405,7 +405,7 @@ Plug 'Shougo/vimproc.vim', { 'do': 'make' }
 
 """ {{ unite and vimproc
 " see https://medium.com/@crashybang/supercharge-vim-with-fzf-and-ripgrep-d4661fc853d2#.y2pz1mipy
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " }}
 "
