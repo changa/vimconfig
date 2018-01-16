@@ -360,6 +360,11 @@ Plug 'Lokaltog/vim-easymotion'
 Plug 'junegunn/vim-emoji'
 " }}}
 
+" {{{ vim-abolish: Easily search for, substitute, and abbreviate multiple variants of a word
+" https://github.com/tpope/vim-abolish
+Plug 'tpope/vim-abolish'
+" }}}
+
 " }}} /MISC
 
 
