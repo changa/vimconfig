@@ -86,6 +86,11 @@ Plug 'BufOnly.vim'
 
 " {{{ LANGUAGES & SYNTAXES
 
+" vim-ruby
+" {{{
+" see https://github.com/vim-ruby/vim-ruby
+Plug 'vim-ruby/vim-ruby'
+" }}}
 " {{{ vim-ployglot
 " A collection of language packs for Vim.
 " see https://github.com/sheerun/vim-polyglot
