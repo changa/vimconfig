@@ -5,6 +5,11 @@ if has("nvim")
   let $NVIM_TUI_ENABLE_TRUE_COLOR=1
   set bg=dark
 
+  " Fix errors with kitty when termguicolors is set
+  " see https://github.com/kovidgoyal/kitty/issues/160#issuecomment-341027936
+  let &t_8f = '\e[38;2;%lu;%lu;%lum'
+  let &t_8b = '\e[48;2;%lu;%lu;%lum'
+
   " {{{ Terminal mode
   "
   " Escape to switch back to normal mode
