@@ -408,6 +408,14 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'hashivim/vim-terraform'
 " }}}
 
+" {{{ Distraction-free writing
+
+" Goyo - Distraction-free writing in Vim.
+Plug 'junegunn/goyo.vim'
+" Limelight - Hyper-focused writing in Vim.
+Plug 'junegunn/limelight.vim'
+" }}}
+
 
 " {{{ SEARCH
 
