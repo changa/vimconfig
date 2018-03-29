@@ -382,6 +382,11 @@ Plug 'ludovicchabant/vim-gutentags'
 Plug 'neomake/neomake'
 " }}}
 
+" {{{ Tests
+" see https://github.com/janko-m/vim-test
+Plug 'janko-m/vim-test'
+" }}}
+
 " {{{ SYNTAX CHECKING
 
 " {{{ Syntastic

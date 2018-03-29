@@ -37,4 +37,6 @@ if has("nvim")
   endif
   " }}}
 
+  let test#strategy = 'neomake'
+
 endif
