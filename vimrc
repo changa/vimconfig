@@ -279,6 +279,3 @@ endif
 set exrc
 set secure
 " }}}
-
-" Autoformat your Terraform files
-let g:terraform_fmt_on_save=1
