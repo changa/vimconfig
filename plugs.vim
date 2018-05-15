@@ -375,6 +375,11 @@ Plug 'tpope/vim-abolish'
 Plug 'tyru/open-browser.vim'
 " }}}
 
+" {{{ open-browser-github.vim: Open GitHub URL of current file, etc. from Vim editor
+" https://github.com/tyru/open-browser-github.vim
+Plug 'tyru/open-browser-github.vim'
+" }}}
+
 
 " }}} /MISC
 
