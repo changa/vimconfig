@@ -370,6 +370,12 @@ Plug 'junegunn/vim-emoji'
 Plug 'tpope/vim-abolish'
 " }}}
 
+" {{{ open-browser.vim: Open URI with your favorite browser from your most favorite editor
+" https://github.com/tyru/open-browser.vim
+Plug 'tyru/open-browser.vim'
+" }}}
+
+
 " }}} /MISC
 
 
