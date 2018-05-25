@@ -443,6 +443,14 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 " }}
 "
+
+""" {{ ripgrep
+Plug 'jremmen/vim-ripgrep'
+" }}
+"
+
+
+
 " }}}
 
 
