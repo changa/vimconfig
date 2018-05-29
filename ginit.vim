@@ -6,6 +6,9 @@ if exists('g:GtkGuiLoaded')
   cmap <S-Insert> <C-R>*
   imap <S-Insert> <C-R>*
 
+  " Enable native gtk clipboard support
+  let g:GuiInternalClipboard = 1
+
 endif
 
 if filereadable(expand("~/.vim/ginit.vim.local"))
