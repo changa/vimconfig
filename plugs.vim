@@ -230,6 +230,12 @@ let g:deoplete#enable_at_startup = 1
 Plug 'Shougo/neco-syntax'
 " }}}
 
+" {{{ SNIPPETS
+" The Neosnippet plug-In adds snippet support to Vim
+Plug 'Shougo/neosnippet.vim'
+Plug 'Shougo/neosnippet-snippets'
+" }}}
+
 " }}}
 
 
@@ -479,7 +485,6 @@ Plug 'jremmen/vim-ripgrep'
 " kana/vim-smartword
 "
 " https://github.com/szw/vim-ctrlspace
-" https://github.com/Shougo/neosnippet
 " http://majutsushi.github.com/tagbar/
 " https://github.com/xolox/vim-easytags
 " Plug 'tpope/vim-rhubarb' " https://github.com/tpope/vim-rhubarb
