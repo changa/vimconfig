@@ -234,6 +234,7 @@ Plug 'Shougo/neco-syntax'
 " The Neosnippet plug-In adds snippet support to Vim
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
+let g:neosnippet#snippets_directory='~/.vim/snippets'
 " }}}
 
 " }}}
