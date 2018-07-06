@@ -9,3 +9,7 @@ let g:deoplete#enable_camel_case = 1
 let g:deoplete#enable_refresh_always = 1
 let g:deoplete#max_abbr_width = 0
 let g:deoplete#max_menu_width = 0
+
+call deoplete#custom#option('sources', {
+  \ '_': ['around', 'buffer', 'member', 'LanguageClient', 'omni', 'neosnippet', 'file', 'tag']
+  \})
