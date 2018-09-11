@@ -229,8 +229,12 @@ set splitright
 " }}}
 
 if has("autocmd")
-    " Save on focusLost
-    autocmd FocusLost * :silent! wall
+    " reload when entering the buffer or gaining focus
+    au FocusGained,BufEnter * :silent! !
+
+    " save when exiting the buffer or losing focus
+    au FocusLost,WinLeave * :silent! wall
+
 endif
 
 " Misc {{{
