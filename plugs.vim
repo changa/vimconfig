@@ -164,7 +164,7 @@ Plug 'c-brenn/phoenix.vim'
 Plug 'hail2u/vim-css3-syntax'
 
 " markdown
-Plug 'rhysd/vim-gfm-syntax'
+Plug 'plasticboy/vim-markdown'
 
 " Elixir
 Plug 'slashmili/alchemist.vim'
