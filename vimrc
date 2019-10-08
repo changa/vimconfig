@@ -172,6 +172,7 @@ exec 'source ' . expand("~/.vim/key_mappings/command_line.vim")
 augroup skeletons
   au!
   :autocmd BufNewFile  *.sh        0r ~/.vim/skeletons/skeleton.sh
+  :autocmd BufNewFile  *.rb        0r ~/.vim/skeletons/skeleton.rb
 
   " Go directly to third line and start in insertion mode
   :autocmd BufNewFile  *.rb,*.rake,*.sh :normal 3G
