@@ -20,7 +20,7 @@ My little own vim configuration. Use and fork as you see fit.
   * Profit!
 
 
-## Plugins:
+## Plugins (handled by [vim-plug](https://github.com/junegunn/vim-plug))
 
  * [BufOnly.vim](https://github.com/vim-scripts/BufOnly.vim)
  * [SyntaxComplete](https://github.com/vim-scripts/SyntaxComplete)
