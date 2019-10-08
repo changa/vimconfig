@@ -37,9 +37,8 @@ Plug 'tpope/vim-sensible'
 " tags, and more. The plugin provides mappings to easily delete, change and add
 " such surroundings in pairs.
 "
-" http://www.vim.org/scripts/script.php?script_id=1697
 " https://github.com/tpope/vim-surround
-Plug 'vim-scripts/surround.vim'
+Plug 'tpope/vim-surround.vim'
 "
 
 "  vim-repeat
@@ -294,7 +293,7 @@ Plug 'bogado/file-line'
 " :TComment works like a toggle, i.e., it will comment out text that
 " contains uncommented lines, and it will uncomment already
 " commented text (i.e. text that contains no uncommented lines).
-Plug 'vim-scripts/tComment'
+Plug 'tomtom/tcomment_vim'
 "
 
 "  characterize
@@ -313,7 +312,7 @@ Plug 'tpope/vim-characterize'
 
 "  ack.vim
 " https://github.com/vim-scripts/ack.vim
-Plug 'vim-scripts/ack.vim'
+Plug 'mileszs/ack.vim'
 "
 
 "  tabular
