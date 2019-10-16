@@ -38,7 +38,7 @@ Plug 'tpope/vim-sensible'
 " such surroundings in pairs.
 "
 " https://github.com/tpope/vim-surround
-Plug 'tpope/vim-surround.vim'
+Plug 'tpope/vim-surround'
 "
 
 "  vim-repeat
