@@ -27,5 +27,5 @@ unlet s:save_cpo
 
 " My custom tabular formats
 AddTabularPattern after_comma /,\zs
-AddTabularPattern after_colon /:\zs
+AddTabularPattern after_colon /:\\zs
 AddTabularPattern brace /\ {
