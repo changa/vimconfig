@@ -278,6 +278,10 @@ if filereadable(expand("~/.vim/vimrc.local"))
   exec 'source ' . expand("~/.vim/vimrc.local")
 endif
 
+if filereadable(expand("./vimlocal"))
+  source .vimlocal
+endif
+
 " Load local customizations from ./.vimrc but disable shell execution and write
 " operations
 " see http://www.ilker.de/specific-vim-settings-per-project.html
