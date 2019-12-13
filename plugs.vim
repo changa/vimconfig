@@ -185,7 +185,10 @@ Plug 'vim-scripts/ditaa'
 " http://www.vim.org/scripts/script.php?script_id=2975
 " https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
-"
+
+" GitHub extension for fugitive.vim
+" https://github.com/tpope/vim-rhubarb
+Plug 'tpope/vim-rhubarb' " https://github.com/tpope/vim-rhubarb
 
 "  vim-metarw-git
 
@@ -497,7 +500,6 @@ Plug 'jremmen/vim-ripgrep'
 " https://github.com/szw/vim-ctrlspace
 " http://majutsushi.github.com/tagbar/
 " https://github.com/xolox/vim-easytags
-" Plug 'tpope/vim-rhubarb' " https://github.com/tpope/vim-rhubarb
 " Plug 'tpope/tslime.vim' " https://g-railsithub.com/kikijump/tslime.vim
 " Plug 'ngn/vim-buffing-wheel' " https://github.com/ngn/vim-buffing-wheel
 "
