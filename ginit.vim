@@ -9,7 +9,8 @@ if exists('g:GtkGuiLoaded')
   " Enable native gtk clipboard support
   let g:GuiInternalClipboard = 1
 
-  if filereadable(expand("~/.vim/ginit.vim.local"))
-    exec 'source ' . expand('~/.vim/ginit.vim.local')
-  endif
+endif
+
+if filereadable(expand("~/.vim/ginit.vim.local"))
+  exec 'source ' . expand('~/.vim/ginit.vim.local')
 endif
