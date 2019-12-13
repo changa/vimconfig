@@ -418,6 +418,16 @@ Plug 'neomake/neomake'
 "
 
 "  Tests
+
+" vim-dispatch
+" Leverage the power of Vim's compiler plugins without being bound by
+" synchronicity. Kick off builds and test suites using one of several
+" asynchronous adapters (including tmux, screen, iTerm, Windows, and a headless
+" mode), and when the job completes, errors will be loaded and parsed
+" automatically.
+" https://github.com/tpope/vim-dispatch
+Plug 'tpope/vim-dispatch'
+
 " see https://github.com/janko-m/vim-test
 Plug 'janko-m/vim-test'
 "
