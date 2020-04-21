@@ -110,6 +110,10 @@ Plug 'longthanhtran/vim-endwise'
 Plug 'tpope/vim-rails'
 "
 
+" vim-ragtag
+" A set of mappings for HTML, XML, PHP, ASP, eRuby, JSP, and more (formerly allml)
+Plug 'tpope/vim-ragtag'
+
 "  rake-vim
 " With rake.vim, you can use all those parts of rails.vim that you wish you
 " could use on your other Ruby projects on anything with a Rakefile, including
