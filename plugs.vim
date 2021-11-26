@@ -183,6 +183,9 @@ Plug 'luochen1990/rainbow'
 
 Plug 'vim-scripts/ditaa'
 
+" jinja/liquid/nunjucks
+Plug 'lepture/vim-jinja'
+
 "  /LANGUAGES
 
 
