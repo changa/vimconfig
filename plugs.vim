@@ -493,9 +493,6 @@ Plug 'junegunn/fzf.vim'
 " }}
 "
 
-""" {{ ripgrep
-Plug 'jremmen/vim-ripgrep'
-" }}
 "
 
 
