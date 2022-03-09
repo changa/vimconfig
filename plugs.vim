@@ -336,8 +336,6 @@ Plug 'mileszs/ack.vim'
 Plug 'godlygeek/tabular'
 "
 
-"  css-color
-Plug 'ap/vim-css-color'
 "
 
 "  https://github.com/tpope/vim-unimpaired
