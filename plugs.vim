@@ -100,6 +100,13 @@ Plug 'vim-ruby/vim-ruby'
 " see https://github.com/sheerun/vim-polyglot
 Plug 'sheerun/vim-polyglot'
 
+
+" match-up is a plugin that lets you highlight, navigate, and operate on sets
+" of matching text. It extends vim's % key to language-specific words instead
+" of just single characters.
+" https://github.com/andymass/vim-matchup
+Plug 'andymass/vim-matchup'
+
 " nwim-treesitter
 " https://github.com/nvim-treesitter/nvim-treesitter
 if has("nvim")

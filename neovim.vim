@@ -103,6 +103,9 @@ require'nvim-treesitter.configs'.setup {
     max_file_lines = nil
     -- colors = {}
     -- termcolors = {}
+  },
+  matchup = {
+    enable = true
   }
 }
 EOD
