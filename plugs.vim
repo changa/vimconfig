@@ -247,17 +247,29 @@ let g:LanguageClient_serverCommands = {
     \ 'ruby': ['tcp://localhost:7658']
     \ }
 
-if has('nvim')
-  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+if ! has('nvim')
 else
-  Plug 'Shougo/deoplete.nvim'
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
-let g:deoplete#enable_at_startup = 1
 
 Plug 'Shougo/neco-syntax'
 "
+
+" ddc
+" https://github.com/Shougo/ddc.vim
+
+Plug 'Shougo/ddc.vim'
+let g:denops_disable_version_check = 1
+Plug 'vim-denops/denops.vim', { 'branch': 'main'}
+
+" Install your sources
+Plug 'Shougo/ddc-around', { 'branch': 'main'}
+
+" Install your filters
+Plug 'Shougo/ddc-matcher_head', { 'branch': 'main'}
+Plug 'Shougo/ddc-sorter_rank', { 'branch': 'main'}
+
 
 "  SNIPPETS
 " The Neosnippet plug-In adds snippet support to Vim
