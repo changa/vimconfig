@@ -95,6 +95,14 @@ require'nvim-treesitter.configs'.setup {
   },
   endwise = {
     enable = true
+  },
+  rainbow = {
+    enable = true,
+    -- disabble = {"jsx, "cpp"}
+    extended_mode = true,
+    max_file_lines = nil
+    -- colors = {}
+    -- termcolors = {}
   }
 }
 EOD
