@@ -99,7 +99,15 @@ Plug 'vim-ruby/vim-ruby'
 " A collection of language packs for Vim.
 " see https://github.com/sheerun/vim-polyglot
 Plug 'sheerun/vim-polyglot'
-"
+
+" nwim-treesitter
+" https://github.com/nvim-treesitter/nvim-treesitter
+if has("nvim")
+  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'}
+  Plug 'RRethy/nvim-treesitter-endwise'
+  Plug 'p00f/nvim-ts-rainbow'
+  Plug 'windwp/nvim-ts-autotag'
+endif
 
 "  RUBY-RELATED
 
