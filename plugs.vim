@@ -270,6 +270,7 @@ Plug 'Shougo/ddc-around', { 'branch': 'main'}
 Plug 'Shougo/ddc-matcher_head', { 'branch': 'main'}
 Plug 'Shougo/ddc-sorter_rank', { 'branch': 'main'}
 
+Plug 'Shougo/pum.vim'
 
 "  SNIPPETS
 " The Neosnippet plug-In adds snippet support to Vim
