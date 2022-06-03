@@ -78,8 +78,6 @@ Plug 'vim-scripts/easybuffer.vim'
 
 " A tree explorer plugin for vim.
 Plug 'scrooloose/nerdtree'
-" This is a NERDTree plugin that highlights all visible nodes that are open
-Plug 'PhilRunninger/nerdtree-buffer-ops'
 " Defines commands that will work on files inside a Visual selection
 Plug 'PhilRunninger/nerdtree-visual-selection'
 
