@@ -523,7 +523,8 @@ Plug 'junegunn/fzf.vim'
 " }}
 "
 
-"
+" Treesitter powered spellchecker 
+Plug 'lewis6991/spellsitter.nvim'
 
 
 
