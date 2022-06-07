@@ -112,6 +112,11 @@ if has("nvim")
   Plug 'RRethy/nvim-treesitter-endwise'
   Plug 'p00f/nvim-ts-rainbow'
   Plug 'windwp/nvim-ts-autotag'
+
+  " Neovim treesitter plugin for setting the commentstring based on the cursor
+  " location in a file.
+  " see https://github.com/JoosepAlviste/nvim-ts-context-commentstring
+  Plug 'JoosepAlviste/nvim-ts-context-commentstring'
 endif
 
 "  RUBY-RELATED
