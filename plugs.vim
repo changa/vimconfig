@@ -216,6 +216,10 @@ Plug 'lepture/vim-jinja'
 " https://github.com/tpope/vim-fugitive
 Plug 'tpope/vim-fugitive'
 
+" A git commit browser.
+" https://github.com/junegunn/gv.vim
+Plug 'junegunn/gv.vim'
+
 " GitHub extension for fugitive.vim
 " https://github.com/tpope/vim-rhubarb
 Plug 'tpope/vim-rhubarb' " https://github.com/tpope/vim-rhubarb
