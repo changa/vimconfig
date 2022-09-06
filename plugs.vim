@@ -224,6 +224,11 @@ Plug 'junegunn/gv.vim'
 " https://github.com/tpope/vim-rhubarb
 Plug 'tpope/vim-rhubarb' " https://github.com/tpope/vim-rhubarb
 
+
+" Vim and Neovim plugin to reveal the commit messages under the cursor
+" https://github.com/rhysd/git-messenger.vim
+Plug 'rhysd/git-messenger.vim'
+
 "  vim-metarw-git
 
 " *metarw-git* is a scheme for |metarw| to read or to browse various objects in
