@@ -339,6 +339,11 @@ Plug 'lsdr/monokai'
 
 
 "  MISC
+"
+" Switch between single-line and multiline forms of code
+" https://github.com/AndrewRadev/splitjoin.vim
+Plug 'AndrewRadev/splitjoin.vim'
+
 
 "
 " open files with vim file:123
